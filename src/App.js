@@ -6,6 +6,8 @@ import DefeatCat from './pages/DefeatCat';
 import Gallery from './pages/Gallery';
 import Metamask from './pages/Metamask';
 import Chart from './pages/Chart';
+import Purpose from './pages/Purpose';
+import Staking from './pages/Staking';
 function App() {
   return (
  
@@ -15,6 +17,8 @@ function App() {
   <Route exact path='/characters' component={Gallery}/>
   <Route exact path='/connect' component={Metamask}/>
   <Route exact path='/chart' component={Chart}/>
+  <Route exact path='/purpose' component={Purpose}/>
+  <Route exact path='/staking' component={Staking}/>
   </Router>
   
   );

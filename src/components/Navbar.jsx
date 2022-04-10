@@ -3,6 +3,7 @@ import Logo from '../assets/logo.png'
 import Wallet from '../assets/wallet.png';
 import Staking from '../assets/staking.png'
 import './components.css'
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (  
         <div className="Navbar">
@@ -11,7 +12,7 @@ const Navbar = () => {
         </div>
         <div className="nav_routes">
         <ul>
-        <li>Home</li>
+        <li><Link to='/'>Home</Link></li>
         <li>Marketplace</li>
         <li>Purpose</li>
         <li>Development</li>
