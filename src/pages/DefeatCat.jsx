@@ -1,9 +1,11 @@
 import Navbar from "../components/Navbar";
-import "../components/components.css";
+
 const DefeatCat = () => {
     return ( 
         <>
+        <div className="navBox">
         <Navbar/>
+        </div>
         <section className="defeatCat">
        
             <div className="defeat_header">

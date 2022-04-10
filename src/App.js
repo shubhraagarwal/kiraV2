@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 import DefeatCat from './pages/DefeatCat';
 import Gallery from './pages/Gallery';
 import Metamask from './pages/Metamask';
+import Chart from './pages/Chart';
 function App() {
   return (
  
@@ -13,6 +14,7 @@ function App() {
   <Route exact path='/defeat' component={DefeatCat}/>
   <Route exact path='/characters' component={Gallery}/>
   <Route exact path='/connect' component={Metamask}/>
+  <Route exact path='/chart' component={Chart}/>
   </Router>
   
   );
