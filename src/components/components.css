@@ -1,0 +1,216 @@
+/*Navbar*/
+.Navbar{
+    display: flex;
+    padding: 2rem 4rem;
+    background-color: #0F1333;
+    padding-bottom: 1rem;
+}
+.nav_routes ul {
+    display: flex;
+list-style: none;
+margin: auto;
+font-family: Cool;
+}
+.nav_routes ul li{
+    padding: 1rem 2rem;
+    color: #FFFFFF;
+}
+.nav_routes img{
+    position: relative;
+    top: -1rem;
+    left: 1.5rem;
+    height: 0.6rem;
+}
+.nav_routes span{
+    color: #FFD37E;
+    position: relative;
+    top: -3.5rem;
+    font-size: 14px;
+    left: -0.5rem;
+    font-family: CoolCond;
+}
+.nav_routes div{
+    margin-bottom: 0;
+}
+.nav_routes span:nth-child(2){
+    left: 3.25rem;
+}
+
+.wallet{
+    margin-left: auto;
+    margin-top: 1rem;
+}
+.LandBanner img{
+height: 83.7vh;
+width: -webkit-fill-available;
+
+}
+
+@font-face {
+    font-family: Cool;
+    src: url('../assets/coolvetica\ rg.otf');
+}
+@font-face {
+    font-family: CoolCond;
+    src: url('../assets/coolvetica\ condensed\ rg.otf');
+}
+
+/*Gallery*/
+.filter input{
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    font-family: Cool;
+    background: none;
+    color: #FFD37E;
+}
+.filter h1{
+    color: #FFD37E;
+    font-family: Cool;
+    font-size: 40px;
+}
+.searchToken{
+    border-bottom: 1px solid #FFD37E;
+    width: fit-content;
+    margin-top: -1rem;
+   
+}
+.filter input::placeholder{
+    color: #FFD37E99;
+
+}
+.gal_back{
+    background-color: #0F1333;
+}
+#back{
+    margin-top: 3rem;
+}
+.filter p{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 1rem;
+    font-family: Cool;
+}
+.Background{
+    display: flex;
+    width: 15.5%;
+    padding: 0rem 0rem;
+    border-top: 1px solid #FFD37E;
+}
+#access{
+    border-bottom: 1px solid #FFD37E;
+}
+.backImg{
+    margin-left: auto;
+}
+.backImg img{
+    margin-top: 1.7rem;
+}
+
+/* DEFEAT PAGE */
+.defeat_header{
+    background: #0F1333;
+    text-align: center;
+}
+.defeatCat{
+    background: #0F1333;
+    display: grid;
+}
+.defeat_header h1{
+/* font-family: 'Coolvetica'; */
+font-family: Cool;
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+letter-spacing: 0.075em;
+color: #FFD37E;
+}
+.defeat_header p{
+/* font-family: 'Clash Grotesk'; */
+font-family: 'Clash Grotesk', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+.defeat_assent{
+background: rgba(128, 130, 150, 0.21);
+opacity: 0.7;
+border-radius: 8px;
+text-align: center;
+}
+.defeat_assent h1, .defeat_supernova h1, .defeat_tilt h1, .defeat_impossible h1{
+/* font-family: 'Coolvetica'; */
+font-family: Cool;
+font-style: italic;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+color: #FFD37E;
+}
+.defeat_assent p, .defeat_supernova p, .defeat_tilt p, .defeat_impossible p{
+/* font-family: 'Clash Grotesk'; */
+font-family: 'Clash Grotesk', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 40px;
+color: #FFFFFF;
+}
+.defeat_supernova{
+/* background: url(09674697-a75c-4701-8327-3c4a77eceaca(1).jpg); */
+/* mix-blend-mode: lighten; */
+/* transform: matrix(0.1, -0.99, 1, 0.05, 0, 0); */
+background: rgba(128, 130, 150, 0.21);
+opacity: 0.7;
+border-radius: 8px;
+text-align: center;
+}
+.defeat_tilt{
+    background: rgba(128, 130, 150, 0.21);
+    opacity: 0.7;
+    border-radius: 8px;
+    text-align: center;   
+}
+.defeat_impossible{
+    background: rgba(128, 130, 150, 0.21);
+opacity: 0.7;
+border-radius: 8px;
+text-align: center;
+}
+
+
+/* METAMASK */
+.META{
+    background: #0F1333;
+}
+.metamask{
+    border: 1px solid #FFD37E;
+    width: 22rem;
+    height: 3.5rem;
+    background: #FFD37E;
+    border-radius: 4px;
+    margin-left: 33rem;
+    margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.metamask p{
+/* font-family: 'Coolvetica'; */
+font-family: Cool;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+color: #000000;
+text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.15);
+}
+.metamask img{
+    width: 36px;
+    height: 34px;
+    margin-right:1rem;
+}
