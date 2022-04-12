@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="nav_routes">
         <ul>
         <li><Link to='/'>Home</Link></li>
-        <li>Marketplace</li>
+        <li><Link to='/characters'>Marketplace</Link></li>
         <li>Purpose</li>
         <li>Development</li>
         <li>Reserve</li>
@@ -36,7 +36,7 @@ const Navbar = () => {
         </ul>
         </div>
         <div className="wallet">
-        <img src={Wallet} alt="" />
+      <Link to='/connect'> <img src={Wallet} alt="" /></Link> 
         </div>
         </div>
     );

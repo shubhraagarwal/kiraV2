@@ -5,7 +5,9 @@ const Metamask = () => {
     return (
         // <>
          <div className="META">  
-        <Navbar/>
+         <div className="navBox">
+         <Navbar/>
+         </div>
         
         <div className="metamask">
             <img src={meta} alt="" />

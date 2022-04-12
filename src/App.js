@@ -8,6 +8,10 @@ import Metamask from './pages/Metamask';
 import Chart from './pages/Chart';
 import Purpose from './pages/Purpose';
 import Staking from './pages/Staking';
+import Supernova from './pages/Supernova';
+import Assent from './pages/Assent';
+import Tilt from './pages/Tilt';
+import Impossible from './pages/Impossible';
 function App() {
   return (
  
@@ -19,6 +23,10 @@ function App() {
   <Route exact path='/chart' component={Chart}/>
   <Route exact path='/purpose' component={Purpose}/>
   <Route exact path='/staking' component={Staking}/>
+  <Route exact path='/defeat/supernova' component={Supernova}/>
+  <Route exact path='/defeat/assent' component={Assent}/>
+  <Route exact path='/defeat/tilt' component={Tilt}/>
+  <Route exact path='/defeat/impossible' component={Impossible}/>
   </Router>
   
   );

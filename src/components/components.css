@@ -201,7 +201,7 @@ width: -webkit-fill-available;
     background: #0F1333;
     /* display: grid; */
 }
-.defeat_header h1{
+.defeat_header h1, .super_head h1{
 /* font-family: 'Coolvetica'; */
 font-family: Cool;
 font-style: normal;
@@ -251,10 +251,6 @@ line-height: 40px;
 color: #FFFFFF;
 }
 .defeat_supernova{
-/* background: url(09674697-a75c-4701-8327-3c4a77eceaca(1).jpg); */
-/* mix-blend-mode: lighten; */
-/* transform: matrix(0.1, -0.99, 1, 0.05, 0, 0); */
-/* background: rgba(128, 130, 150, 0.21); */
 background: url('../assets/SuperNovaBack.png');
 opacity: 0.7;
 /* border-radius: 8px; */
@@ -291,7 +287,7 @@ background-repeat: no-repeat;
     height: 3.5rem;
     background: #FFD37E;
     border-radius: 4px;
-    margin-left: 33rem;
+    margin: auto;
     margin-top: 15rem;
     display: flex;
     justify-content: center;
@@ -377,4 +373,140 @@ text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.15);
     position: relative;
     left: 0.5rem;
     top: -0.8rem;
+}
+/* SUPERNOVA */
+#Model{
+    width: 100rem;
+    height: 30rem;
+}
+#ModelAlt{
+    width: 150rem;
+    height: 30rem;
+}
+.super_head{
+    text-align: center;
+}
+.superNova{
+    display: flex;
+    background: url('../assets/SupernovaModelBack.png');
+opacity: 0.7;
+background-repeat: no-repeat;
+background-size: cover;
+padding-left: 5rem;
+padding-right: 10rem;
+}
+
+.supernova_content h1{
+/* font-family: 'Coolvetica'; */
+font-family: Cool;
+font-style: italic;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+color: #FFD37E;
+padding-top: 6rem;
+padding-bottom: 3rem;
+}
+.supernova_content p{
+font-family: 'Clash Grotesk',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+padding-right: 15rem;
+}
+.cross{
+    padding-top: 5rem;
+    position: relative;
+    left: 4rem;
+}
+
+.Assent{
+    display: flex;
+    background: url('../assets/assentbackmodel.png');
+    opacity: 0.7;
+    background-repeat: no-repeat;
+        background-size: cover;
+padding-left: 5rem;
+padding-right: 10rem;
+}
+.Tilt{
+    display: flex;
+    background: url('../assets/tiltbackmodel.png');
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+padding-left: 5rem;
+padding-right: 10rem;
+}
+.Impossible{
+    display: flex;
+    background: url('../assets/ImpossibleModelBack.png');
+opacity: 0.7;
+background-repeat: no-repeat;
+    background-size: cover;
+padding-left: 5rem;
+padding-right: 10rem;
+}
+/*Staking*/
+.reg, .clan{
+    width: 10rem;
+}
+.InfoHead{
+    background: url('../assets/InfoBar.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/*StakeFoot*/
+footer{
+    padding: 0rem 0rem;
+    border: 6px solid black;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+}
+.StakeFoot{
+    display: flex;
+    background-color: #1F1D19;
+    padding: 1rem 2rem;
+    padding-bottom: 0rem;
+}
+.space, .esc, .info, .Play{
+    display: flex;
+}
+.StakeFoot p{
+    color: #E2CBA6;
+    color: #E2CBA6;
+    margin-top: 0.5rem;
+    /* padding: 0rem 1rem; */
+    padding-left: 0.5rem;
+    padding-right: 3rem;
+    font-family: CoolCond;
+}
+.StakeFoot button{
+    color: #FFD37E;
+    background-color: #1F1D19;
+    border: 1px solid #FFD37E;
+    font-family: CoolCond;
+    border-radius: 3px;
+    font-weight: 100;
+}
+.StakeFoot button{
+    padding: 0rem 0.8rem;
+    height: 2rem;
+    font-size: 15px;
+}
+.Play p{
+    font-family: Cool;
+    color: #FFD66C;
+}
+.Play img{
+    height: 2rem;
+    padding-right: 0.5rem;
+}
+.Play{
+    margin-left: auto;
+   
 }

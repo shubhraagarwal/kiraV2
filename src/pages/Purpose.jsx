@@ -8,7 +8,9 @@ import Development from '../assets/Development.png'
 const Purpose = () => {
     return ( 
         <>
-        <Navbar/>
+        <div className="navBox">
+     <Navbar/>
+     </div>
         <div className="Purpose">
         <div className="pur_banner">
         <img src={PurposeBanner} alt="" />
