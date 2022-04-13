@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
-import LandingBanner from "../assets/LandingBanner.png";
+
 import Staking from "../assets/staking.png";
+import LandingBanner from '../assets/HighBanner.png' 
 const Landing = () => {
   return (
     <>
