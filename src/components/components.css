@@ -545,3 +545,85 @@ footer{
 .CommingSoon img{
     width: 100vw;
 }
+/*Team*/
+.Team{
+    padding: 4rem 3rem;
+    display: flex;
+}
+.team_cont{
+    display: flex;
+    margin-top: 4rem;
+   
+}
+.MemberOne{
+background: rgba(255, 255, 255, 0.038);
+}
+.socials{
+    margin-top: auto;
+    padding-left: 0.8rem;
+}
+.socials img{
+    padding: 0.8rem 0.8rem;
+}
+.team_pic img{
+    margin-left: 3rem;
+}
+.team_head{
+    padding: 0rem 1.5rem;
+}
+.team_head h1{
+    color: #FFD37E;
+    font-family: Cool;
+    font-size: 24px;
+}
+.team_head h2{
+    font-family: Cool;
+    color: white;
+    font-size: 1.2rem;
+}
+.MemberOne{
+    border: 2px solid #FFD37E;
+    border-radius: 8px;
+    width: fit-content;
+}
+.socialsHandles{
+    margin-top: auto;
+    padding-left: 8rem;
+}
+.socialsHandles img{
+    padding: 0.8rem 0.8rem;
+}
+.team_container{
+    display: flex;
+    margin-top: 12rem;
+    
+}
+.socialsHandles h2{
+    
+    margin-left: 2.7rem;
+color: #FFFFFF;
+font-family: Cool;
+}
+.MemberTwo{
+    border: 2px solid #FFD37E;
+    border-radius: 8px;
+    width: fit-content;
+    height: fit-content;
+    background: rgba(255, 255, 255, 0.038);
+    margin-top: auto;
+    margin-left: 3rem;
+}
+.twitter{
+    margin-left: 7rem;
+}
+.socialsHandles h2{
+    margin-right: 0rem;
+    padding: 1rem 1rem;
+    font-size: 15px;
+}
+#Kate{
+margin-left: 0rem;
+}
+.team_picture img{
+    width: 8rem;
+}

@@ -12,6 +12,7 @@ import Assent from "./pages/Assent";
 import Tilt from "./pages/Tilt";
 import Impossible from "./pages/Impossible";
 import StakingSoon from "./pages/StakingSoon";
+import Team from "./pages/Team";
 function App() {
   return (
     <Router>
@@ -26,6 +27,7 @@ function App() {
       <Route exact path="/defeat/assent" component={Assent} />
       <Route exact path="/defeat/tilt" component={Tilt} />
       <Route exact path="/defeat/impossible" component={Impossible} />
+      <Route exact path="/team" component={Team} />
     </Router>
   );
 }

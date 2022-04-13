@@ -48,6 +48,15 @@ const Navbar = (props) => {
           <img src={props.reserve} alt="" />
           </div>
           <div>
+          <li>
+          <Link to='/team'>
+          Team
+          </Link>
+          </li>
+          <img src={props.team} alt="" />
+          </div>
+          <div>
+         
             <li>
               <Link to="/staking">Staking</Link>
             </li>
