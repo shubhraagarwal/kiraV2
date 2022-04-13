@@ -1,7 +1,7 @@
 import Region from '../assets/Region.png'
 import Clan from '../assets/Clan.png'
 import InfoFrame from '../assets/InfoFrame.png'
-import InfoBar from '../assets/InfoBar.png'
+// import InfoBar from '../assets/InfoBar.png'
 const Invent = () => {
     return ( 
         <div className="Inventory">

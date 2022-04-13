@@ -1,10 +1,11 @@
 import Navbar from "../components/Navbar";
 import {Link} from 'react-router-dom';
+import Staking from "../assets/staking.png";
 const DefeatCat = () => {
     return ( 
         <>
         <div className="navBox">
-        <Navbar/>
+        <Navbar home = '' market ='' purpose = {Staking} development = '' reserve = '' staking = '' weapon = '' land = ''/>
         </div>
         <section className="defeatCat">
        

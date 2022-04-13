@@ -5,12 +5,12 @@ import Progess from "../assets/Progress.png";
 import RD from "../assets/R &D.png";
 import Running from "../assets/Running.png";
 import DevelopmentIMG from "../assets/Development.png";
-
+import Staking from "../assets/staking.png";
 const Development = () => {
   return (
     <>
       <div className="navBox">
-        <Navbar />
+      <Navbar home = '' market ='' purpose = '' development = {Staking} reserve = '' staking = '' weapon = '' land = ''/>
       </div>
       <div className="Purpose">
         <div className="pur_banner">

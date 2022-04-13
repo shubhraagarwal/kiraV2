@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Inventory from '../components/Inventory'
 import StakeFoot from "../components/StakeFoot";
+import Staking from "../assets/staking.png";
 const Staking = () => {
     return (  
         <>

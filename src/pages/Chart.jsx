@@ -2,11 +2,12 @@ import Navbar from "../components/Navbar";
 import Bars from '../assets/statsBlur.png'
 import ChartBlur from '../assets/chartBlur.png'
 import TBA from '../assets/TBA.png'
+import Staking from "../assets/staking.png";
 const Chart = () => {
   return (
     <>
       <div className="navBox">
-        <Navbar />
+      <Navbar home = '' market ='' purpose = '' development = '' reserve = {Staking} staking = '' weapon = '' land = ''/>
       </div>
 
       <div className="chart">

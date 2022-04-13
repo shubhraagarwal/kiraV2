@@ -14,11 +14,12 @@ import CharEight from '../assets/CharEight.png'
 import CharNine from '../assets/CharNine.png'
 import CharTen from '../assets/CharTen.png'
 import CharEleven from '../assets/CharEleven.png'
+import Staking from "../assets/staking.png";
 const Gallery = () => {
     return ( 
      <div className="gal_back">
      <div className="navBox">
-     <Navbar/>
+     <Navbar home = '' market ={Staking} purpose = '' development = '' reserve = '' staking = '' weapon = '' land = ''/>
      </div>
      <div className="gal_wrap">
      <div className="gallery">

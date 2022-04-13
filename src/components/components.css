@@ -2,9 +2,10 @@
 /*Navbar*/
 .Navbar{
     display: flex;
-    padding: 2rem 4rem;
+    padding: 1rem 4rem;
     background-color: #0F1333;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
+
 }
 .navBox{
     box-shadow: 0px 4px 4px rgba(255, 211, 126, 0.14)
@@ -30,12 +31,36 @@ a{
     left: 1.5rem;
     height: 0.6rem;
 }
-.nav_routes span{
+/* .nav_routes span{
     color: #FFD37E;
     position: relative;
     top: -3.5rem;
     font-size: 14px;
     left: -0.5rem;
+    font-family: CoolCond;
+} */
+.SoonStake{
+    color: #FFD37E;
+    position: relative;
+    top: -3.5rem;
+    font-size: 14px;
+    left: -0.5rem;
+    font-family: CoolCond;
+}
+.SoonWeapon{
+    color: #FFD37E;
+    position: relative;
+    top: -3.5rem;
+    font-size: 14px;
+    left: 3.5rem;
+    font-family: CoolCond;
+}
+.SoonLand{
+    color: #FFD37E;
+    position: relative;
+    top: -3.5rem;
+    font-size: 14px;
+    left: 2.5rem;
     font-family: CoolCond;
 }
 .nav_routes div{
@@ -50,7 +75,8 @@ a{
     margin-top: 1rem;
 }
 .LandBanner img{
-height: 83.7vh;
+    height: 87.9vh;
+
 width: -webkit-fill-available;
 
 }
@@ -219,6 +245,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 20px;
 color: #FFFFFF;
+margin-top: -1rem;
 }
 .defeat_assent{
 /* background: rgba(128, 130, 150, 0.21); */
@@ -240,6 +267,7 @@ font-weight: 400;
 font-size: 40px;
 line-height: 48px;
 color: #FFD37E;
+margin-top: 0rem;
 }
 .defeat_assent p, .defeat_supernova p, .defeat_tilt p, .defeat_impossible p{
 /* font-family: 'Clash Grotesk'; */
@@ -249,6 +277,7 @@ font-weight: 600;
 font-size: 20px;
 line-height: 40px;
 color: #FFFFFF;
+margin-top: -2rem;
 }
 .defeat_supernova{
 background: url('../assets/SuperNovaBack.png');
@@ -417,9 +446,8 @@ color: #FFFFFF;
 padding-right: 15rem;
 }
 .cross{
-    padding-top: 5rem;
     position: relative;
-    left: 4rem;
+    top: -5.5rem;
 }
 
 .Assent{
@@ -448,6 +476,7 @@ background-repeat: no-repeat;
     background-size: cover;
 padding-left: 5rem;
 padding-right: 10rem;
+height: 33.7rem;
 }
 /*Staking*/
 .reg, .clan{
@@ -509,4 +538,10 @@ footer{
 .Play{
     margin-left: auto;
    
+}
+.CommingSoon{
+    overflow: hidden;
+}
+.CommingSoon img{
+    width: 100vw;
 }

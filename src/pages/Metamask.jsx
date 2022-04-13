@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import "../components/components.css";
 import meta from "../assets/metamask.png"
+
 const Metamask = () => {
     return (
         // <>
