@@ -28,7 +28,7 @@ const Chart = () => {
         <img src={TBA} alt="" id="aboveChart"/>
         </div>
         <div className="bars">
-        <img src={Bars} alt="" />
+        <img src={Bars} alt="" className="BarBlur"/>
         <img src={TBA} alt="" id="aboveBar"/>
         </div>
       </div>

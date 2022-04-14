@@ -403,11 +403,16 @@ text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.15);
 }
 .Chartblur{
     padding: 0rem 12rem;
+    width: 28rem;
+}
+.BarBlur{
+    width: 30rem;
 }
 #aboveChart{
     padding: 1rem 11.7rem;
     position: relative;
-    top: -14rem;
+    top: -16rem;
+    left: 2rem;
 }
 #aboveBar{
     position: relative;
@@ -653,14 +658,14 @@ margin-left: 0rem;
     margin-left: 3rem;
 }
 #Mary{
-    margin-top: 12rem;
+    margin-top: 5rem;
 }
 .TeamSetThree .MemberTwo{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 #Marvin{
     margin-left: 0rem;
-    margin-bottom: 12rem;
+    margin-bottom: 5rem;
 }
 #pr{
     padding-left: 7rem;
@@ -768,4 +773,9 @@ margin-left: 0rem;
     background: #ffffff;
     border-radius: 18px;
     border: 1px solid #cfcece;
+  }
+  @media(min-width:2560px) and (min-height:1600px){
+    .defeat_assent, .defeat_supernova, .defeat_impossible, .defeat_tilt{
+          padding: 5.35rem 0rem;
+    }
   }
