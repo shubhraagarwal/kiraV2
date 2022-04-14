@@ -1,8 +1,8 @@
 import Navbar from "../components/Navbar";
 import Search from '../assets/search.png'
 import Add from '../assets/add.png'
-import YourWallet from '../assets/yourwallet.png'
-import Random from '../assets/random.png'
+// import YourWallet from '../assets/yourwallet.png'
+// import Random from '../assets/random.png'
 // import CharOne from '../assets/CharOne.png'
 // import CharTwo from '../assets/CharTwo.png'
 // import CharThree from '../assets/CharThree.png'
@@ -14,6 +14,7 @@ import Random from '../assets/random.png'
 // import CharNine from '../assets/CharNine.png'
 // import CharTen from '../assets/CharTen.png'
 // import CharEleven from '../assets/CharEleven.png'
+import CommingSoon from '../assets/Coming soon.png'
 import Staking from "../assets/staking.png";
 const Gallery = () => {
     return ( 
@@ -78,9 +79,9 @@ const Gallery = () => {
      <div className="genesis_header">
      <div>
      <h1>KIRA GENESIS &nbsp; &nbsp; &nbsp; &nbsp; <span>// 10000</span></h1>
-     <button className="randomBtn">
+    {/* <button className="randomBtn">
      <img src={Random} alt="" />
-     Randomize</button>
+    Randomize</button>*/}
      {/* <div className="Characters">
      <div className="CharRowOne">
      <div className="charCont">
@@ -182,16 +183,16 @@ const Gallery = () => {
      {/* </div> */}
 
 <div className="gallery_comming">
-    <h1>Comming Soon</h1>
+  <h1>LOADING...</h1>
 </div>
 
      </div>
 
      <div>
-     <button className="walletBtn">
+ {/*<button className="walletBtn">
      <img src={YourWallet} alt="" />
      Your Wallet
-     </button>
+    </button>*/}
      </div>
      </div>
      </div>

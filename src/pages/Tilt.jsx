@@ -1,6 +1,6 @@
 import SuperDetails from "../components/SuperDetails";
 import Navbar from "../components/Navbar";
-import TiltModel from '../assets/03.glb'
+import TiltModel from '../assets/02.glb'
 import Staking from "../assets/staking.png";
 const Tilt = () => {
     return ( 

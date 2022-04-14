@@ -4,6 +4,7 @@ import Staking from "../assets/staking.png";
 const DefeatCat = () => {
     return ( 
         <>
+        <div className="DefeatWrap">
         <div className="navBox">
         <Navbar home = '' market ='' purpose = {Staking} development = '' reserve = '' staking = '' weapon = '' land = ''/>
         </div>
@@ -40,6 +41,7 @@ const DefeatCat = () => {
             </Link>
         
         </section>
+        </div>
         </>
      );
 }

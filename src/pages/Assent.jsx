@@ -1,6 +1,6 @@
 import SuperDetails from "../components/SuperDetails";
 import Navbar from "../components/Navbar";
-import AssentModel from '../assets/02.glb'
+import AssentModel from '../assets/03.glb'
 import Staking from "../assets/staking.png";
 const Assent = () => {
     return (  

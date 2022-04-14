@@ -1,5 +1,5 @@
-import Logo from "../assets/logo.png";
-import Wallet from "../assets/wallet.png";
+import Logo from "../assets/LOGO - GOLDEN.png";
+import Wallet from "../assets/Wallet.svg";
 import "./components.css";
 import { Link } from "react-router-dom";
 
@@ -21,14 +21,7 @@ const Navbar = (props) => {
           <img src={props.home} alt="" />
          
           </div>
-          <div>
-          <li>
-            <Link to="/marketplace" >Marketplace</Link>
-          </li>
          
-          <img src={props.market} alt="" />
-          
-          </div>
           <div>
           <li>
             <Link to="/defeat">Purpose</Link>
@@ -56,8 +49,17 @@ const Navbar = (props) => {
           <img src={props.team} alt="" />
           </div>
           <div>
+          <li>
+            <Link to="/marketplace" >Marketplace</Link>
+          </li>
          
+          <img src={props.market} alt="" />
+          <span className="SoonWeapon">Soon</span>
+          </div>
+          <div>
+    
             <li>
+            
               <Link to="/staking">Staking</Link>
             </li>
             <img src={props.staking} alt="" />

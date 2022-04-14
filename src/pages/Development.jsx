@@ -12,6 +12,7 @@ import 'reactjs-popup/dist/index.css';
 const Development = () => {
   return (
     <>
+    <div className="DevWrap">
       <div className="navBox">
       <Navbar home = '' market ='' purpose = '' development = {Staking} reserve = '' staking = '' weapon = '' land = ''/>
       </div>
@@ -44,6 +45,7 @@ const Development = () => {
         <div className="pur_wrap">
           <div className="Banner_logo">
           <img src={KiraBanner} alt="" />
+     
           </div>
           <div className="pur_stats">
             <div>
@@ -77,6 +79,7 @@ const Development = () => {
 
       <div className="pop_up">
 
+      </div>
       </div>
     </>
   );
