@@ -1,15 +1,13 @@
 import Navbar from "../components/Navbar";
 
 import Staking from "../assets/staking.png";
-import LandingBanner from '../assets/HighBanner.png' 
 const Landing = () => {
   return (
     <>
+    <div className="Landing">
       <Navbar home= {Staking} market = '' />
-      <div className="LandBanner">
-        <img src={LandingBanner} alt="" />
+  
       </div>
-    
     </>
   );
 };

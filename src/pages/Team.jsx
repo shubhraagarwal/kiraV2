@@ -8,6 +8,7 @@ import Marvin from '../assets/Marvin.png'
 import Marc from '../assets/Marc.png'
 import Nicky from '../assets/Nicky.png'
 import Kate from '../assets/Kate.png'
+import Jack from '../assets/Jack.png'
 const Team = () => {
     return (  
         <>
@@ -15,6 +16,7 @@ const Team = () => {
         <Navbar home = '' market ='' purpose = '' development = '' reserve = '' staking = '' weapon = '' land = '' team ={Staking}/>
         </div>
         <div className="Team">
+        <div className="TeamSetOne">
         <div className="MemberOne">
         <div className="team_head">
         <h1>Antoni TUDISCO</h1>
@@ -30,7 +32,7 @@ const Team = () => {
         </div>
         </div>
         </div>
-        <div className="MemberTwo">
+        <div className="MemberTwo" id="Mary">
         <div className="team_head">
         <h1>Mary</h1>
         </div>
@@ -38,7 +40,7 @@ const Team = () => {
         <div className="team_picture">
         <img src={Mary} alt="" />
         </div>
-        <div className="socialsHandles">
+        <div className="socialsHandles" id="cio">
         <h2>CIO</h2>
         <img src={Twitter} alt=""/>
         <img src={Instagram} alt="" />
@@ -46,7 +48,14 @@ const Team = () => {
  
         </div>
         </div>
-        <div className="MemberTwo">
+        
+       
+        
+        </div>
+
+
+        <div className="TeamSetTwo">   
+        <div className="MemberTwo" id="Marvin">
         <div className="team_head">
         <h1>Marvin</h1>
         </div>
@@ -54,17 +63,13 @@ const Team = () => {
         <div className="team_picture">
         <img src={Marvin} alt="" />
         </div>
-        <div className="socialsHandles">
+        <div className="socialsHandles" id="pm">
         <h2>PROJECT MANAGER</h2>
         <img src={Twitter} alt="" className="twitter" />
         <img src={Instagram} alt="" className="insta" />
         </div>
- 
         </div>
         </div>
-        
-        </div>
-        <div className="Team">
         <div className="MemberOne">
         <div className="team_head">
         <h1>Marc Tudisco</h1>
@@ -80,6 +85,11 @@ const Team = () => {
         </div>
         </div>
         </div>
+        </div>
+
+
+        <div className="TeamSetThree">
+       
         <div className="MemberTwo">
         <div className="team_head">
         <h1>Nicky Nick</h1>
@@ -104,7 +114,7 @@ const Team = () => {
         <div className="team_picture">
         <img src={Kate} alt="" />
         </div>
-        <div className="socialsHandles">
+        <div className="socialsHandles" id="pr">
         <h2>PR & COMMUNICATIONS</h2>
         <img src={Twitter} alt="" className="twitter"/>
         <img src={Instagram} alt="" />
@@ -112,16 +122,13 @@ const Team = () => {
  
         </div>
         </div>
-        
-        </div>
-        <div className="Team">
         <div className="MemberTwo" id="Kate">
         <div className="team_head">
-        <h1>Kate</h1>
+        <h1>Jack (aka Monique)</h1>
         </div>
         <div className="team_container">
         <div className="team_picture">
-        <img src={Kate} alt="" />
+        <img src={Jack} alt="" />
         </div>
         <div className="socialsHandles">
         <h2>PROJECT MANAGER</h2>
@@ -129,6 +136,7 @@ const Team = () => {
         <img src={Instagram} alt="" />
         </div>
  
+        </div>
         </div>
         </div>
         </div>

@@ -3,17 +3,17 @@ import Search from '../assets/search.png'
 import Add from '../assets/add.png'
 import YourWallet from '../assets/yourwallet.png'
 import Random from '../assets/random.png'
-import CharOne from '../assets/CharOne.png'
-import CharTwo from '../assets/CharTwo.png'
-import CharThree from '../assets/CharThree.png'
-import CharFour from '../assets/CharFour.png'
-import CharFive from '../assets/CharFive.png'
-import CharSix from '../assets/CharSix.png'
-import CharSeven from '../assets/CharSeven.png'
-import CharEight from '../assets/CharEight.png'
-import CharNine from '../assets/CharNine.png'
-import CharTen from '../assets/CharTen.png'
-import CharEleven from '../assets/CharEleven.png'
+// import CharOne from '../assets/CharOne.png'
+// import CharTwo from '../assets/CharTwo.png'
+// import CharThree from '../assets/CharThree.png'
+// import CharFour from '../assets/CharFour.png'
+// import CharFive from '../assets/CharFive.png'
+// import CharSix from '../assets/CharSix.png'
+// import CharSeven from '../assets/CharSeven.png'
+// import CharEight from '../assets/CharEight.png'
+// import CharNine from '../assets/CharNine.png'
+// import CharTen from '../assets/CharTen.png'
+// import CharEleven from '../assets/CharEleven.png'
 import Staking from "../assets/staking.png";
 const Gallery = () => {
     return ( 
@@ -81,7 +81,7 @@ const Gallery = () => {
      <button className="randomBtn">
      <img src={Random} alt="" />
      Randomize</button>
-     <div className="Characters">
+     {/* <div className="Characters">
      <div className="CharRowOne">
      <div className="charCont">
      <img src={CharOne} alt="" />
@@ -178,7 +178,13 @@ const Gallery = () => {
      </div>
      </div>
      </div>
-     </div>
+      */}
+     {/* </div> */}
+
+<div className="gallery_comming">
+    <h1>Comming Soon</h1>
+</div>
+
      </div>
 
      <div>

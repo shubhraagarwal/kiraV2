@@ -1,4 +1,4 @@
-import Cross from "../assets/cross.png"
+
 import { useHistory } from "react-router-dom";
 
 
@@ -19,13 +19,14 @@ const SuperDetails = (props) => {
             alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
             src={props.img}
           
-           
+           auto-rotate
             seamless-poster
             shadow-intensity="1"
-            camera-controls
+          camera-controls
             enable-pan
           id={props.mod}></model-viewer>
-           <span><img src={Cross} alt=""  className="cross" onClick={() => history.push("/defeat")}/></span> 
+          <span className="Cross" onClick={() => history.push("/defeat")}>X</span>
+    {/*<span><img src={Cross} alt=""  className="cross" onClick={() => history.push("/defeat")}/></span> */}
         </div>
         </>
       );

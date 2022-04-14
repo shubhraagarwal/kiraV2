@@ -64,13 +64,13 @@ const Navbar = (props) => {
             <span className="SoonStake">Soon</span>
           </div>
           <div>
-          <div>
+          <div className="Weapon">
             <li>Weapon</li>
             <img src={props.weapon} alt="" />
             <span className="SoonWeapon">Soon</span>
           </div>
           </div>
-          <div>
+          <div className="Land">
             <li>Land</li>
             <img src={props.land} alt="" />
             <span className="SoonLand">Soon</span>
