@@ -15,6 +15,7 @@ import Add from '../assets/add.png'
 // import CharTen from '../assets/CharTen.png'
 // import CharEleven from '../assets/CharEleven.png'
 // import CommingSoon from '../assets/Coming soon.png'
+import MarketPlace from '../assets/Marketplace.png'
 import Staking from "../assets/staking.png";
 const Gallery = () => {
     return ( 
@@ -183,7 +184,7 @@ const Gallery = () => {
      {/* </div> */}
 
 <div className="gallery_comming">
-  <h1>LOADING...</h1>
+  <img src={MarketPlace} alt="" />
 </div>
 
      </div>

@@ -19,7 +19,7 @@ const Team = () => {
         <div className="TeamSetOne">
         <div className="MemberOne">
         <div className="team_head">
-        <h1>Antoni TUDISCO</h1>
+        <h1>Antoni Tudisco</h1>
         <h2>ARTIST</h2>
         </div>
         <div className="team_cont">
@@ -32,7 +32,22 @@ const Team = () => {
         </div>
         </div>
         </div>
-        <div className="MemberTwo" id="Mary">
+        <div className="MemberOne" id="Mary">
+        <div className="team_head">
+        <h1>Mary</h1>
+        <h2>CIO</h2>
+        </div>
+        <div className="team_cont">
+        <div className="socials">
+        <img src={Twitter} alt="" />
+        <img src={Instagram} alt="" />
+        </div>
+        <div className="team_pic">
+        <img src={Mary} alt="" />
+        </div>
+        </div>
+        </div>
+      {/*  <div className="MemberTwo" id="Mary">
         <div className="team_head">
         <h1>Mary</h1>
         </div>
@@ -47,7 +62,7 @@ const Team = () => {
         </div>
  
         </div>
-        </div>
+    </div>*/}
         
        
         
@@ -55,7 +70,7 @@ const Team = () => {
 
 
         <div className="TeamSetTwo">   
-        <div className="MemberTwo" id="Marvin">
+   {/*     <div className="MemberTwo" id="Marvin">
         <div className="team_head">
         <h1>Marvin</h1>
         </div>
@@ -69,7 +84,22 @@ const Team = () => {
         <img src={Instagram} alt="" className="insta" />
         </div>
         </div>
-        </div>
+</div>*/}
+<div className="MemberOne" id='Marvin'>
+<div className="team_head">
+<h1>Marvin</h1>
+<h2>PROJECT MANAGER</h2>
+</div>
+<div className="team_cont">
+<div className="socials">
+<img src={Twitter} alt="" />
+<img src={Instagram} alt="" />
+</div>
+<div className="team_pic">
+<img src={Marvin} alt="" />
+</div>
+</div>
+</div>
         <div className="MemberOne">
         <div className="team_head">
         <h1>Marc Tudisco</h1>

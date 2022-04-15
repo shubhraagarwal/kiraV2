@@ -145,6 +145,9 @@ a {
 }
 .gal_wrap {
   display: flex;
+  
+  margin-top: -3rem;
+
 }
 .walletBtn {
   background: rgba(61, 65, 97, 0.6);
@@ -195,6 +198,7 @@ a {
   width: 100%;
   padding: 0rem 0rem;
   border-top: 1px solid #ffd37e;
+  opacity: 0.4;
 }
 #access {
   border-bottom: 1px solid #ffd37e;
@@ -252,7 +256,12 @@ a {
   color: #ffd37e;
 }
 .gallery_comming {
-  padding: 12rem 26rem;
+  padding: 6rem 6rem;
+}
+.gallery_comming img{
+  height: 28rem;
+  width: 64rem;
+
 }
 /* DEFEAT PAGE */
 .defeat_header {
@@ -270,7 +279,8 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
-  line-height: 145px;
+  line-height: 40px;
+
   letter-spacing: 0.075em;
   color: #ffd37e;
 }
@@ -279,10 +289,11 @@ a {
   font-family: "Clash Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   color: #ffffff;
   margin-top: -1rem;
+  font-weight: 700;
 }
 .defeat_assent {
   /* background: rgba(128, 130, 150, 0.21); */
@@ -298,6 +309,7 @@ a {
 .defeat_impossible,
 .defeat_tilt {
   padding: 0.2rem 0rem;
+  min-height: 16vh;
 }
 .defeat_assent h1,
 .defeat_supernova h1,
@@ -307,7 +319,7 @@ a {
   font-family: Cool;
   font-style: italic;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 24px;
   line-height: 48px;
   color: #ffd37e;
   margin-top: 0rem;
@@ -320,7 +332,7 @@ a {
   font-family: "Clash Grotesk", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 65px;
   color: #ffffff;
   margin-top: -2rem;
@@ -405,21 +417,22 @@ a {
 }
 .Chartblur {
   padding: 0rem 12rem;
-  width: 28rem;
+  width: 20rem;
 }
 .BarBlur {
-  width: 30rem;
+  width: 26rem;
 }
 #aboveChart {
   padding: 1rem 11.7rem;
   position: relative;
-  top: -16rem;
-  left: 2rem;
+  top: -12rem;
+  width: 18rem;
+  left: 1rem;
 }
 #aboveBar {
   position: relative;
-  top: -16rem;
-  left: 3.5rem;
+  top: -13rem;
+  left: 0.5rem;
 }
 /*Purpose*/
 
@@ -443,7 +456,7 @@ a {
   background-size: cover;
   padding-left: 5rem;
   padding-right: 10rem;
-  min-height: 68vh;
+  min-height: 100vh;
 }
 
 .supernova_content h1 {
@@ -479,7 +492,7 @@ a {
   background-size: cover;
   padding-left: 5rem;
   padding-right: 10rem;
-  height: 68vh;
+  height: 100vh;
 }
 .Tilt {
   display: flex;
@@ -489,18 +502,18 @@ a {
   background-size: cover;
   padding-left: 5rem;
   padding-right: 10rem;
-  min-height: 68vh;
+  min-height: 100vh;
 }
 .Impossible {
   display: flex;
   background: url("../assets/ImpossibleModelBack.png");
-  min-height: 68vh;
+  min-height: 90vh;
   opacity: 0.7;
   background-repeat: no-repeat;
   background-size: cover;
   padding-left: 5rem;
   padding-right: 10rem;
-  height: 33.7rem;
+ 
 }
 /*Staking*/
 .reg,
@@ -567,20 +580,21 @@ footer {
   margin-left: auto;
 }
 .CommingSoon {
-  overflow: hidden;
+  text-align: center;
 }
 .CommingSoon img {
-  width: 100vw;
+  height: 90vh;
+
 }
 /*Team*/
 .Team {
-  padding: 4rem 3rem;
+  padding: 3rem 3rem;
   display: flex;
   justify-content: center;
 }
 .team_cont {
   display: flex;
-  margin-top: 4rem;
+  margin-top: -2rem;
 }
 .MemberOne {
   background: rgba(255, 255, 255, 0.038);
@@ -593,7 +607,8 @@ footer {
   padding: 0.8rem 0.8rem;
 }
 .team_pic img {
-  margin-left: 3rem;
+  margin-left: 6rem;
+  width: 12.5rem;
 }
 .team_head {
   padding: 0rem 1.5rem;
@@ -602,17 +617,20 @@ footer {
   color: #ffd37e;
   font-family: Cool;
   font-size: 24px;
+  font-weight: 100;
+
 }
 .team_head h2 {
   font-family: Cool;
   color: white;
   font-size: 1.2rem;
+  letter-spacing: 1px;
 }
 .MemberOne {
   border: 1px solid #ffd37e;
   border-radius: 8px;
   width: fit-content;
-  background: url("../assets//TeamBack.png");
+  background: url("../assets//Black\ bg.png");
   width: 400px;
 }
 .socialsHandles {
@@ -624,7 +642,7 @@ footer {
 }
 .team_container {
   display: flex;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
 }
 .socialsHandles h2 {
   margin-left: 2.7rem;
@@ -640,7 +658,7 @@ footer {
   /* margin-top: auto; */
   margin-left: 0rem;
   margin-bottom: 8rem;
-  background: url("../assets//TeamBack.png");
+  background: url("../assets//Black\ bg.png");
 }
 .twitter {
   margin-left: 7rem;
@@ -654,7 +672,8 @@ footer {
   margin-left: 0rem;
 }
 .team_picture img {
-  width: 8rem;
+  width: 6rem;
+  margin-top: 1.5rem;
 }
 .TeamSetThree {
   padding-left: 2rem;
@@ -663,14 +682,14 @@ footer {
   margin-left: 3rem;
 }
 #Mary {
-  margin-top: 5rem;
+  margin-top: 2.7rem;
 }
 .TeamSetThree .MemberTwo {
   margin-bottom: 1rem;
 }
 #Marvin {
-  margin-left: 0rem;
-  margin-bottom: 5rem;
+  /* margin-left: 0rem; */
+  margin-bottom: 2.7rem;
 }
 #pr {
   padding-left: 7rem;
@@ -704,8 +723,8 @@ footer {
   text-align: center;
 }
 .pur_banner img {
-  width: 36rem;
-  height: 85vh;
+  width: 640px;
+  height: 640px;
 }
 .pur_stats {
   border: 1px solid #ffd37e;
@@ -714,7 +733,7 @@ footer {
   border-radius: 20px;
   color: white;
   font-family: Cool;
-  margin-top: -5rem;
+  margin-top: -10rem;
 }
 .pur_stats div {
   padding: 0.5rem 1.5rem;
@@ -783,6 +802,8 @@ footer {
   .defeat_supernova,
   .defeat_impossible,
   .defeat_tilt {
-    padding: 5.35rem 0rem;
+ 
+    padding: 7.35rem 0rem;
+
   }
 }

@@ -1,6 +1,6 @@
 
 import { useHistory } from "react-router-dom";
-
+import Loading from '../assets/Loading.png'
 const SuperDetails = (props) => {
     const history = useHistory();
     return (
@@ -15,15 +15,16 @@ const SuperDetails = (props) => {
             <p>{props.para}</p>
             </div>
             <model-viewer
-            alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
-            src={props.img}
-          
-           auto-rotate
-            seamless-poster
-            shadow-intensity="1"
+          alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+          src={props.img}
+          auto-rotate
+          seamless-poster
+          shadow-intensity="1"
           camera-controls
-            enable-pan
-          id={props.mod}></model-viewer>
+          enable-pan
+          poster={Loading}
+          id={props.mod}
+        ></model-viewer>
           <span className="Cross" onClick={() => history.push("/defeat")}>X</span>
     {/*<span><img src={Cross} alt=""  className="cross" onClick={() => history.push("/defeat")}/></span> */}
         </div>

@@ -9,6 +9,7 @@ import Staking from "../assets/staking.png";
 import React from 'react';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
+import DevImg from '../assets/DevelopmentFix.png'
 const Development = () => {
   return (
     <>
@@ -18,7 +19,7 @@ const Development = () => {
       </div>
       <div className="Purpose">
         <div className="pur_banner">
-        <Popup trigger={ <img src={PurposeBanner} alt="" />} 
+        <Popup trigger={ <img src={DevImg} alt="" />} 
                    modal nested> 
     {close => (
       <div className="modal">
@@ -44,7 +45,7 @@ const Development = () => {
         </div>
         <div className="pur_wrap">
           <div className="Banner_logo">
-          <img src={KiraBanner} alt="" />
+     
      
           </div>
           <div className="pur_stats">
