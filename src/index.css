@@ -14,4 +14,6 @@ code {
 body{
   margin: 0;
   background: #0F1333;
+  overflow-y: hidden;
+  max-height: 100vh;
 }

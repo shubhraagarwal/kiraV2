@@ -1,7 +1,6 @@
 
 import { useHistory } from "react-router-dom";
 
-
 const SuperDetails = (props) => {
     const history = useHistory();
     return (

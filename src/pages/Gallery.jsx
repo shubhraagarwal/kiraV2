@@ -14,7 +14,7 @@ import Add from '../assets/add.png'
 // import CharNine from '../assets/CharNine.png'
 // import CharTen from '../assets/CharTen.png'
 // import CharEleven from '../assets/CharEleven.png'
-import CommingSoon from '../assets/Coming soon.png'
+// import CommingSoon from '../assets/Coming soon.png'
 import Staking from "../assets/staking.png";
 const Gallery = () => {
     return ( 
