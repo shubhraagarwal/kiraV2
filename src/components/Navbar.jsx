@@ -52,9 +52,9 @@ const Navbar = (props) => {
           <li>
             <Link to="/marketplace" >Marketplace</Link>
           </li>
-         
+          <span className="SoonMarket">Soon</span>
           <img src={props.market} alt="" />
-          <span className="SoonWeapon">Soon</span>
+        
           </div>
           <div>
     

@@ -62,13 +62,28 @@ a {
 .Land li:hover {
   cursor: not-allowed;
 }
+.SoonMarket{
+  color: #ffd37e;
+  font-family: CoolCond;
+  font-size: 14px;
+  position: absolute;
+  left: auto;
+  right: 38rem;
+  top: 0.8rem;
+
+}
 .SoonStake {
   color: #ffd37e;
-  position: relative;
-  top: -3.5rem;
+  /* position: relative;
+  top: -3.5rem; */
   font-size: 14px;
-  left: 1rem;
+  /* left: 1rem; */
   font-family: CoolCond;
+  position: absolute;
+  left: auto;
+  /* right: 38rem; */
+  top: 0.8rem;
+  right: 30.3rem;
 }
 .SoonWeapon {
   color: #ffd37e;
@@ -89,9 +104,9 @@ a {
 .nav_routes div {
   margin-bottom: 0;
 }
-.nav_routes span:nth-child(2) {
+/* .nav_routes span:nth-child(2) {
   left: 3.25rem;
-}
+} */
 
 .wallet {
   margin-left: auto;
@@ -158,7 +173,7 @@ a {
   font-family: Cool;
   cursor: pointer;
   margin-top: 5rem;
-  margin-left: 25rem;
+  margin-left: -6rem;
   padding-bottom: 1.2rem;
   padding-right: 0.5rem;
 }
