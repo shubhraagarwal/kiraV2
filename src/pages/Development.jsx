@@ -34,7 +34,9 @@ const Development = () => {
                   <div className="header"> Suggestions </div>
                   <div className="content">
                     <input type="text" placeholder="Enter your twitter" />
-                    <input type="text" placeholder="Start Typing..." />
+              {/*   <input type="text" placeholder="Start Typing..." />*/}
+              <textarea name="" id="" cols="30" rows="10" placeholder="Start Typing..."></textarea>
+              <button className="PopBtn">Send</button>
                   </div>
                 </div>
               )}

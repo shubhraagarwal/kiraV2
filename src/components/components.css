@@ -727,6 +727,11 @@ footer {
 .DefeatWrap {
   height: 100vh;
 }
+.popup-content{
+  background: #0D0D11 !important;
+  border: 1px solid #FFD37E !important;
+  border-radius: 8px;
+}
 
 /*Purpose*/
 .pur_banner {
@@ -782,16 +787,42 @@ footer {
 .modal {
   font-size: 12px;
 }
+.content input, .content textarea{
+  background: #0D0D11 ;
+  border: 1px solid #FFD37E !important;
+  outline: none;
+}
+.content textarea{
+  width: 620px;
+  height: 192px;
+  border-radius: 8px;
+  padding: 0.5rem;
+  font-family: Cool;
+  margin-top: -1.5rem;
+}
 .modal > .header {
   width: 100%;
   font-size: 50px;
   text-align: center;
   padding: 5px;
+  color: #FFD66C;
+  font-family: Cool;
+}
+.PopBtn{
+  font-size: 13px;
+  background: #FFD37E;
+  border: none;
+  outline: none;
+  color: #000000;
+  border-radius: 8px;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  font-weight: bolder;
 }
 .modal > .content {
   width: 80%;
-  border: 1px solid red;
-  padding: 100px 5px;
+  margin-bottom: -4rem;
+  padding: 5rem 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
