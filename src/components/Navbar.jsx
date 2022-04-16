@@ -49,21 +49,21 @@ const Navbar = (props) => {
           <img src={props.team} alt="" />
           </div>
           <div>
-          <li>
-            <Link to="/marketplace" >Marketplace</Link>
+          <p className="SoonMarket">Soon</p>
+          <li style={{padding:'0rem 2rem'}}>
+            <Link to="/marketplace">Marketplace</Link>
           </li>
-          <span className="SoonMarket">Soon</span>
-          <img src={props.market} alt="" />
+  {/*<span className="SoonMarket">Soon</span>*/}
+          <img src={props.market} alt="" style={{top:'0rem'}}/>
         
           </div>
           <div>
-    
-            <li>
-            
+          <p className="SoonStake">Soon</p>
+            <li style={{padding:'0rem 2rem'}}>
               <Link to="/staking">Staking</Link>
             </li>
-            <img src={props.staking} alt="" />
-            <span className="SoonStake">Soon</span>
+            <img src={props.staking} alt="" style={{top:'0rem'}}/>
+           {/* <span className="SoonStake">Soon</span>*/}
           </div>
           <div>
           <div className="Weapon">
