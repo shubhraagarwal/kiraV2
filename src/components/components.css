@@ -62,7 +62,7 @@ a {
 .Land li:hover {
   cursor: not-allowed;
 }
-.SoonMarket{
+.SoonMarket {
   color: #ffd37e;
   font-family: CoolCond;
   font-size: 14px;
@@ -70,7 +70,6 @@ a {
   left: auto;
   right: 38rem;
   top: 0.8rem;
-
 }
 .SoonStake {
   color: #ffd37e;
@@ -160,10 +159,10 @@ a {
 }
 .gal_wrap {
   display: flex;
-  
-  margin-top: -3rem;
 
+  margin-top: -3rem;
 }
+
 .walletBtn {
   background: rgba(61, 65, 97, 0.6);
   border: none;
@@ -273,10 +272,9 @@ a {
 .gallery_comming {
   padding: 1rem 1rem;
 }
-.gallery_comming img{
-  height: 28rem;
+.gallery_comming img {
+  height: 40rem;
   width: 64rem;
-
 }
 /* DEFEAT PAGE */
 .defeat_header {
@@ -528,7 +526,6 @@ a {
   background-size: cover;
   padding-left: 5rem;
   padding-right: 10rem;
- 
 }
 /*Staking*/
 .reg,
@@ -599,7 +596,6 @@ footer {
 }
 .CommingSoon img {
   height: 90vh;
-
 }
 /*Team*/
 .Team {
@@ -633,7 +629,6 @@ footer {
   font-family: Cool;
   font-size: 24px;
   font-weight: 100;
-
 }
 .team_head h2 {
   font-family: Cool;
@@ -817,8 +812,6 @@ footer {
   .defeat_supernova,
   .defeat_impossible,
   .defeat_tilt {
- 
     padding: 7.35rem 0rem;
-
   }
 }
