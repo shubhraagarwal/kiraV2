@@ -163,7 +163,10 @@ a {
 
   margin-top: -3rem;
 }
-
+.Char_Wrap{
+  display: flex;
+  filter: blur(6px);
+}
 .walletBtn {
   background: rgba(61, 65, 97, 0.6);
   border: none;
@@ -173,7 +176,7 @@ a {
   font-family: Cool;
   cursor: pointer;
   margin-top: 5rem;
-  /* margin-left: -6rem; */
+  margin-left: -6rem;
   padding-bottom: 1.2rem;
   padding-right: 0.5rem;
 }
@@ -246,8 +249,12 @@ a {
 .charCont {
   font-family: "IBM Plex Mono", monospace;
 }
+.charCont img{
+  height: 180px;
+  width: 180px;
+}
 .selection {
-  padding: 0.8rem 4rem;
+  padding: 0.8rem 2.7rem;
   width: fit-content;
   /* margin: auto; */
   background: #3d416199;
@@ -271,11 +278,15 @@ a {
   color: #ffd37e;
 }
 .gallery_comming {
-  padding: 1rem 1rem;
+  /* padding: 1rem 1rem; */
+  text-align: center;
 }
 .gallery_comming img {
-  height: 40rem;
-  width: 70rem;
+  height: 10rem;
+  width: 60%;
+  position: relative;
+  top: -56rem;
+  /* left: 12rem; */
 }
 /* DEFEAT PAGE */
 .defeat_header {
