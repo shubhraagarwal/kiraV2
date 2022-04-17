@@ -166,6 +166,7 @@ a {
 .Char_Wrap{
   display: flex;
   filter: blur(6px);
+  padding: 1rem 0rem;
 }
 .walletBtn {
   background: rgba(61, 65, 97, 0.6);
@@ -239,6 +240,10 @@ a {
 .genesis_header span {
   color: gray;
 }
+.Characters{
+  overflow-y: scroll;
+  height: 100vh;
+}
 .CharRowOne {
   padding: 2rem 0rem;
   display: flex;
@@ -276,18 +281,28 @@ a {
   /* padding-left: 24rem; */
   letter-spacing: 0.075em;
   color: #ffd37e;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+
 }
 .gallery_comming {
-  /* padding: 1rem 1rem; */
-  text-align: center;
+  padding: 1rem 1rem;
+  
+  margin-left: 25rem;
+
+  background: url('../assets/ComeBack.png');
+  background-repeat: no-repeat;
+  position: relative;
+    top: -48rem;
 }
-.gallery_comming img {
+/* .gallery_comming img {
   height: 10rem;
   width: 60%;
   position: relative;
-  top: -56rem;
+  top: -56rem; */
   /* left: 12rem; */
-}
+/* } */
 /* DEFEAT PAGE */
 .defeat_header {
   background: #0f1333;

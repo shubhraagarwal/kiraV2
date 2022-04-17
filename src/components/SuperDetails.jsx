@@ -1,6 +1,5 @@
 
 import { useHistory } from "react-router-dom";
-import Loading from '../assets/Loading.png'
 const SuperDetails = (props) => {
     const history = useHistory();
     return (
@@ -22,7 +21,7 @@ const SuperDetails = (props) => {
           shadow-intensity="1"
           camera-controls
           enable-pan
-          poster={Loading}
+          poster={props.loading}
           id={props.mod}
         ></model-viewer>
           <span className="Cross" onClick={() => history.push("/defeat")}>X</span>

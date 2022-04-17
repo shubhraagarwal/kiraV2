@@ -14,7 +14,7 @@ import CharSeven from '../assets/CharSeven.png'
 import CharNine from '../assets/CharNine.png'
 import CharTen from '../assets/CharTen.png'
 import CharEleven from '../assets/CharEleven.png'
-import CommingSoon from '../assets/Coming soon.png'
+// import CommingSoon from '../assets/Coming soon.png'
 // import MarketPlace from "../assets/Marketplace-coming soon.png";
 import Mint from '../assets/Mint Section.png'
 import Staking from "../assets/staking.png";
@@ -214,11 +214,7 @@ const Gallery = () => {
                </div> 
 
               <div className="gallery_comming">
-                <img
-                  className="marketplace__comingsoon"
-                  src={CommingSoon}
-                  alt=""
-                />
+               <h1>COMING SOON</h1>
     </div>
             </div>
 

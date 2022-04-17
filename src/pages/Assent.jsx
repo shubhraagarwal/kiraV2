@@ -2,6 +2,7 @@ import SuperDetails from "../components/SuperDetails";
 import Navbar from "../components/Navbar";
 import AssentModel from "../assets/Assent.glb";
 import Staking from "../assets/staking.png";
+import AssentLoad from '../assets/AssentPng.png'
 const Assent = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const Assent = () => {
         />
       </div>
       <SuperDetails
+      loading = {AssentLoad}
         class="Assent"
         title="ASSENT"
         mod="Model"

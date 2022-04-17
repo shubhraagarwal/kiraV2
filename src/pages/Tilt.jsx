@@ -1,7 +1,8 @@
 import SuperDetails from "../components/SuperDetails";
 import Navbar from "../components/Navbar";
-import TiltModel from "../assets/Tilt.glb";
+import TiltModel from "../assets/TILT.glb";
 import Staking from "../assets/staking.png";
+import TiltLoad from '../assets/TiltPng.png'
 const Tilt = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const Tilt = () => {
         />
       </div>
       <SuperDetails
+      loading = {TiltLoad}
         class="Tilt"
         title="TILT"
         mod="Model"
