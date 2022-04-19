@@ -6,7 +6,7 @@ import Gallery from "./pages/Gallery";
 import Metamask from "./pages/Metamask";
 import Chart from "./pages/Chart";
 import Development from "./pages/Development";
-
+import { useEffect } from "react";
 import Supernova from "./pages/Supernova";
 import Assent from "./pages/Assent";
 import Tilt from "./pages/Tilt";
@@ -14,6 +14,24 @@ import Impossible from "./pages/Impossible";
 import StakingSoon from "./pages/StakingSoon";
 import Team from "./pages/Team";
 function App() {
+  useEffect(() => {
+    /* Storing user's device details in a variable*/
+    let details = navigator.userAgent;
+
+    /* Creating a regular expression 
+        containing some mobile devices keywords 
+        to search it in details string*/
+    let regexp = /android|iphone|kindle|ipad/i;
+
+    /* Using test() method to search regexp in details
+        it returns boolean value*/
+    let isMobileDevice = regexp.test(details);
+
+    if (isMobileDevice) {
+      alert("Please open the website in a desktop");
+    }
+  }, []);
+
   return (
     <Router>
       <Route exact path="/" component={Landing} />
