@@ -104,6 +104,15 @@ a {
 .nav_routes div {
   margin-bottom: 0;
 }
+.hamburger img{
+  width: 1rem !important;
+  height: 0.8rem !important;
+  margin-top: 1.5rem !important;
+  margin-left: 2rem;
+}
+.hamburger{
+  display: none;
+}
 /* .nav_routes span:nth-child(2) {
   left: 3.25rem;
 } */
@@ -902,4 +911,126 @@ footer {
     height: 50rem;
     width: 120rem;
 } 
+}
+
+@media(max-width:991px){
+  body{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .Landing{
+    background: url('../assets/banner_Res.png');
+    background-size: 100vw 100vh;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+  }
+  .hamburger{
+    display: initial;
+    margin-left: 3.5rem;
+    
+  }
+  .spark{
+    display: none;
+  }
+  .nav_routes li{
+    display: none;
+  }
+  .nav_routes span{
+    display: none;
+  }
+  .SoonStake, .SoonMarket{
+    display: none;
+  }
+  .Navbar{
+    padding: 1rem 1rem;
+    padding-top: 1rem;
+  }
+  /* .nav_routes img{
+    display: none;
+  } */
+  #first_assent{
+margin-top: 4rem;
+  }
+  .defeatCat{
+    width: 110%;
+  }
+  .logo img{
+    width: 5.5rem;
+    height: 2.5rem;
+  }
+  .MemberOne{
+    width: 19rem;
+margin-bottom: 0rem;
+    margin-top: 1rem;
+  }
+  .TeamSetThree .MemberTwo {
+    /* margin-bottom: 1rem; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 19rem;
+    height: 11.5rem;
+}
+.socialsHandles {
+  margin-top: auto;
+  padding-left: 0rem;
+}
+#prcom{
+  padding: 1rem 0rem;
+}
+#pr{
+  padding-left: 0rem;
+}
+.TeamSetThree {
+  padding-left: 0rem;
+}
+  .wallet img{
+    height: 2rem;
+    /* margin-left: -6.5rem; */
+}
+.metamask{
+    width: 18rem;
+    margin-top: 10rem;
+}
+.metamask p{
+  font-size: 14px;
+}
+.navBox{
+  box-shadow: none;
+}
+.Team{
+  display: block;
+  padding: 3rem 0.5rem;
+  overflow-x: hidden;
+}
+#Mary {
+  margin-top: 1rem;
+}
+.TeamSetTwo{
+  margin-left: 0rem;
+}
+#Marvin{
+  margin: 0rem;
+  margin-top: 1rem;
+  
+}
+.team_pic img {
+  margin-left: 4rem;
+  width: 8.5rem;
+  height: 9rem;
+  margin-top: 3.5rem;
+}
+.CommingSoon{
+  overflow-x: hidden;
+}
+.res_routes{
+  color: white;
+    margin-left: -6rem;
+   
+    margin-bottom: -8rem !important;
+
+}
+#wall_res{
+  margin-left: -3rem;
+}
 }

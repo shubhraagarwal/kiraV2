@@ -145,7 +145,7 @@ const Team = () => {
         <img src={Kate} alt="" />
         </div>
         <div className="socialsHandles" id="pr">
-        <h2>PR & COMMUNICATIONS</h2>
+        <h2 id="prcom">PR & COMMUNICATIONS</h2>
         <img src={Twitter} alt="" className="twitter"/>
         <img src={Instagram} alt="" />
         </div>

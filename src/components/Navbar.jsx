@@ -2,9 +2,10 @@ import Logo from "../assets/LOGO - GOLDEN.png";
 import Wallet from "../assets/Wallet.svg";
 import "./components.css";
 import { Link } from "react-router-dom";
-
+import Hamburger from '../assets/Hamburger.png'
+import { useState } from "react";
 const Navbar = (props) => {
-
+const[ham,setHam] =  useState(false)
   return (
     <div className="Navbar">
       <div className="logo">
@@ -18,7 +19,7 @@ const Navbar = (props) => {
 
           </li>
      
-          <img src={props.home} alt="" />
+          <img src={props.home} alt="" className="spark"/>
          
           </div>
          
@@ -26,19 +27,19 @@ const Navbar = (props) => {
           <li>
             <Link to="/defeat">Purpose</Link>
           </li>
-          <img src={props.purpose} alt="" />
+          <img src={props.purpose} alt="" className="spark"/>
           </div>
           <div>
           <li>
             <Link to="/development">Development</Link>
           </li>
-          <img src={props.development} alt="" />
+          <img src={props.development} alt="" className="spark"/>
           </div>
           <div>
           <li>
             <Link to="/reserve">Reserve</Link>
           </li>
-          <img src={props.reserve} alt="" />
+          <img src={props.reserve} alt=""  className="spark"/>
           </div>
           <div>
           <li>
@@ -46,7 +47,7 @@ const Navbar = (props) => {
           Team
           </Link>
           </li>
-          <img src={props.team} alt="" />
+          <img src={props.team} alt="" className="spark"/>
           </div>
           <div>
           <p className="SoonMarket">Soon</p>
@@ -54,7 +55,7 @@ const Navbar = (props) => {
             <Link to="/marketplace">Marketplace</Link>
           </li>
   {/*<span className="SoonMarket">Soon</span>*/}
-          <img src={props.market} alt="" style={{top:'0rem'}}/>
+          <img src={props.market} alt="" style={{top:'0rem'}} className="spark"/>
         
           </div>
           <div>
@@ -62,20 +63,46 @@ const Navbar = (props) => {
             <li style={{padding:'0rem 2rem'}}>
               <Link to="/staking">Staking</Link>
             </li>
-            <img src={props.staking} alt="" style={{top:'0rem'}}/>
+            <img src={props.staking} alt="" style={{top:'0rem'}} className="spark"/>
            {/* <span className="SoonStake">Soon</span>*/}
           </div>
           <div>
           <div className="Weapon">
             <li>Weapon</li>
-            <img src={props.weapon} alt="" />
+            <img src={props.weapon} alt="" className="spark"/>
             <span className="SoonWeapon">Soon</span>
           </div>
           </div>
           <div className="Land">
             <li>Land</li>
-            <img src={props.land} alt="" />
+            <img src={props.land} alt="" className="spark"/>
             <span className="SoonLand">Soon</span>
+          </div>
+          <div className="hamburger" onClick={() => setHam(!ham)}>
+          {ham == false?
+          <img src={Hamburger} alt="" />
+          :
+          <>
+          <img src={Hamburger} alt="" />
+        <div className="res_routes">
+        <p>Home</p>
+        <p>Pupose</p>
+        <p>Development</p>
+        <p>Reserve</p>
+        <p>Team</p>
+        <p>Marketplace</p>
+        <p>Staking</p>
+        <p>Weapon</p>
+        <p>Land</p>
+        <div className="wallet" id="wall_res">
+        <Link to="/connect">
+          {" "}
+          <img src={Wallet} alt="" />
+        </Link>
+      </div>
+        </div>
+          </>
+          }
           </div>
         </ul>
       </div>

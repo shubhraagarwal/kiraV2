@@ -16,7 +16,7 @@ const DefeatCat = () => {
                 <p> The Shogun will be defeated.</p>
             </div>
             <Link to= '/defeat/assent'>
-            <div className="defeat_assent">
+            <div className="defeat_assent" id="first_assent">
                 <h1>ASSENT</h1>
                 <p>Assignment 1 </p>
             </div>
