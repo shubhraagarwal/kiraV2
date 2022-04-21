@@ -1110,8 +1110,8 @@ margin-bottom: 0rem;
 }
 .CommingSoon img{
   
-  height: 86vh;
-  width: 50vw;
+  height: 100%;
+  width: 100%;
 }
 .navBox{
   overflow: hidden;
@@ -1194,43 +1194,56 @@ body{
 overflow-y: auto;
 }
 .Assent, .superNova,.Tilt,.Impossible{
-display: block;
-padding-left: 2rem;
-padding-right: 0rem;
+  overflow-x: hidden;
+  display: block;
+  padding-left: 2rem;
+    padding-right: 0rem;
 }
 .supernova_content p{
-padding-right: 0rem;
-padding-top: 33rem;
+  padding-right: 0rem;
+  padding-top: 33rem;
 }
 #Model{
-position: relative;
-top: -47rem;
-left: -42rem;
+  position: relative;
+  top: -47rem;
+  /* left: -42rem; */
+  left: -40rem;
 }
 .supernova_content h1{
-padding-top: 0rem;
-text-align: center;
-font-size: 20px;
+  padding-top: 0rem;
+  text-align: center;
+  font-size: 26px;
 }
 .Cross{
-position: relative;
-top: -84rem;
-/* top: -91.5rem; */
-left: 13rem;
-/* font-size: 13px; */
-padding: 0.1rem 0.4rem;
+  /* position: relative;
+    top: -84rem; */
+    /* top: -91.5rem; */
+    /* left: 13rem; */
+    /* font-size: 13px; */
+    /* padding: 0.1rem 0.4rem; */
+
+
+    padding: 0.1rem 0.4rem;
+    position: absolute;
+    left: 19rem;
+    top: 15.5rem;
 }
 .cross1{
-position: relative;
-/* top: -84rem; */
-top: -91.5rem;
-left: 13rem;
-/* font-size: 13px; */
-padding: 0.1rem 0.4rem;
+  /* position: relative; */
+    /* top: -84rem; */
+    /* top: -91.5rem; */
+    /* left: 13rem; */
+    /* font-size: 13px; */
+    /* padding: 0.1rem 0.4rem; */
+
+    padding: 0.1rem 0.4rem;
+    position: absolute;
+    left: 19rem;
+    top: 15.5rem;
 }
 #ModelAlt{
-position: relative;
-top: -61rem;
-left: -66rem;
+    position: relative;
+    top: -52rem;
+    left: -64rem;
 }
 }

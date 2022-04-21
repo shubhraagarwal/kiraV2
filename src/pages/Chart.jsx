@@ -20,7 +20,7 @@ const Chart = () => {
       </div>
 
       <div className="chart">
-        <div>
+    <div>
           <p>
             <strong>KIRA</strong> is an ongoing movement and to defeat the
             Shogun. We will need to deploy funds to develop and grow.{" "}
@@ -34,9 +34,11 @@ const Chart = () => {
             anything that does not pertain to bettering <strong>KIRA</strong> as
             a project.
           </p>
+          <div  className="Tokenomics_respon">
           <h1>Tokenomics</h1>
           <img src={ChartBlur} alt="" className="Chartblur" />
           <img src={TBA} alt="" id="aboveChart" />
+        </div>
         </div>
         <div className="bars">
           <img src={Bars} alt="" className="BarBlur" />
