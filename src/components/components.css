@@ -832,7 +832,7 @@ footer {
   display: flex;
   margin-top: -11rem;
   margin-left: auto;
-  justify-content: end;
+  justify-content: flex-end;
   /* margin-right: auto; */
   padding-right: 5rem;
 }

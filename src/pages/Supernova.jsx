@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import SuperDetails from "../components/SuperDetails";
-import Model from "../assets/SuperNova.glb";
+import Model from "../assets/Supernova.glb";
 import Staking from "../assets/staking.png";
 import SuperLoad from "../assets/SupernovaPng.png";
 const Supernova = () => {
