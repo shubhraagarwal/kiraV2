@@ -79,12 +79,15 @@ const[ham,setHam] =  useState(false)
             <span className="SoonLand">Soon</span>
           </div>
           <div className="hamburger" onClick={() => setHam(!ham)}>
-          {ham == false?
-          <img src={Hamburger} alt="" />
+          {ham === false?
+          <img src={Hamburger} alt="" className="befHam"/>
           :
           <>
           <img src={Hamburger} alt="" />
         <div className="res_routes">
+        <div className="crossNav">
+        
+        </div>
         <p>Home</p>
         <p>Pupose</p>
         <p>Development</p>
@@ -94,12 +97,6 @@ const[ham,setHam] =  useState(false)
         <p>Staking</p>
         <p>Weapon</p>
         <p>Land</p>
-        <div className="wallet" id="wall_res">
-        <Link to="/connect">
-          {" "}
-          <img src={Wallet} alt="" />
-        </Link>
-      </div>
         </div>
           </>
           }

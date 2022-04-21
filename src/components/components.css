@@ -108,6 +108,7 @@ a {
   width: 1rem !important;
   height: 0.8rem !important;
   margin-top: 1.5rem !important;
+  margin-right: -5.5rem;
   margin-left: 2rem;
 }
 .hamburger{
@@ -568,6 +569,9 @@ a {
 .clan {
   width: 10rem;
 }
+.PrevRes{
+  display: none;
+}
 .InfoHead {
   background: url("../assets/InfoBar.png");
   background-repeat: no-repeat;
@@ -639,6 +643,40 @@ footer {
   display: flex;
   justify-content: center;
 }
+.Discord{
+  width: 2rem;
+  padding: 0rem 0rem;
+  margin-bottom: 0rem;
+  padding-left: 1rem;
+}
+.CommLink{
+  margin-bottom: 0.8rem;
+  margin-left: 0.6rem;
+}
+.CommMail{
+  margin-bottom: 0.8rem;
+}
+.PrSocials{
+  margin-left: 5rem;
+}
+.PMSocials{
+  margin-left: 4rem;
+}
+.Discord_CIO{
+  margin-bottom: -0.2rem;
+  padding-left: 1rem;
+  width: 1.8rem;
+}
+#Socio_CIO{
+  margin-right: -2rem;
+}
+.CIOMail{
+  margin-bottom: 0.5rem;
+}
+.Marvin_mail{
+  padding-bottom: 0.8rem;
+}
+
 .team_cont {
   display: flex;
   margin-top: -2rem;
@@ -728,14 +766,14 @@ footer {
   margin-left: 3rem;
 }
 #Mary {
-  margin-top: 2.7rem;
+  margin-top: 3.4rem;
 }
 .TeamSetThree .MemberTwo {
   margin-bottom: 1rem;
 }
 #Marvin {
   /* margin-left: 0rem; */
-  margin-bottom: 2.7rem;
+  margin-bottom: 3.4rem;
 }
 #pr {
   padding-left: 7rem;
@@ -927,7 +965,7 @@ footer {
   }
   .hamburger{
     display: initial;
-    margin-left: 3.5rem;
+    margin-left: -4.5rem;
     
   }
   .spark{
@@ -960,16 +998,30 @@ margin-top: 4rem;
     height: 2.5rem;
   }
   .MemberOne{
-    width: 19rem;
+    width: 18rem;
 margin-bottom: 0rem;
     margin-top: 1rem;
   }
   .TeamSetThree .MemberTwo {
-    /* margin-bottom: 1rem; */
+    margin-bottom: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    width: 19rem;
+    width: 18rem;
     height: 11.5rem;
+    margin-left: 0rem;
+}
+.socials img {
+  padding: 0.8rem 0.5rem;
+}
+#pr h2{
+  margin-left: 1.5rem;
+}
+#Socio_CIO {
+  margin-right: -2.3rem;
+}
+#Marvin .socials{
+  
+  margin-left: -0.1rem;
 }
 .socialsHandles {
   margin-top: auto;
@@ -986,7 +1038,8 @@ margin-bottom: 0rem;
 }
   .wallet img{
     height: 2rem;
-    /* margin-left: -6.5rem; */
+    margin-left: 0rem;
+    margin-right: -0.6rem;
 }
 .metamask{
     width: 18rem;
@@ -1002,6 +1055,13 @@ margin-bottom: 0rem;
   display: block;
   padding: 3rem 0.5rem;
   overflow-x: hidden;
+}
+.socialsHandles h2{
+  margin-right: -2rem;
+}
+.MemberTwo{
+  width: 292px;
+  margin-left: 0.3rem;
 }
 #Mary {
   margin-top: 1rem;
@@ -1028,9 +1088,36 @@ margin-bottom: 0rem;
     margin-left: -6rem;
    
     margin-bottom: -8rem !important;
-
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+    background-color: #000000;
+}
+.res_routes p{
+  border-bottom: 2px solid #FFD37E;
+  text-align: initial;
+  padding: 0.5rem 1.6rem;
+  padding-right: 12rem;
 }
 #wall_res{
   margin-left: -3rem;
+}
+.PrevRes{
+  display: initial;
+}
+.Preview{
+  display: none;
+}
+.CommingSoon img{
+  
+  height: 86vh;
+  width: 50vw;
+}
+.navBox{
+  overflow: hidden;
+}
+.befHam{
+  padding: 0rem 7rem;
+  padding-left: 7.8rem;
 }
 }
