@@ -75,12 +75,14 @@ const Team = () => {
                   rel="noopener noreferrer"
                 >
                   <svg
+             
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
+                  
                     fill="none"
-                    stroke="currentColor"
+                    stroke="#FFD37E"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -93,7 +95,8 @@ const Team = () => {
                 </a>
 
                 <svg
-                  fill="#FFD37E"
+                fill="#FFD37E"
+                stroke="currentColor"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
                   width="50px"
@@ -163,8 +166,8 @@ const Team = () => {
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
+                   fill="none"
+                    stroke="#FFD37E"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -177,7 +180,8 @@ const Team = () => {
                 </a>
 
                 <svg
-                  fill="#FFD37E"
+                fill="#FFD37E"
+                stroke="currentColor"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
                   width="50px"
@@ -261,7 +265,7 @@ const Team = () => {
                     height="24"
                     viewBox="0 0 24 24"
                     fill="none"
-                    stroke="currentColor"
+                    stroke="#FFD37E"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -283,7 +287,7 @@ const Team = () => {
                     height="24"
                     viewBox="0 0 24 24"
                     fill="none"
-                    stroke="currentColor"
+                    stroke="#FFD37E"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -297,7 +301,8 @@ const Team = () => {
                 </a>
 
                 <svg
-                  fill="#FFD37E"
+                fill="#FFD37E"
+                stroke="currentColor"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
                   width="50px"
@@ -336,7 +341,7 @@ const Team = () => {
                     height="24"
                     viewBox="0 0 24 24"
                     fill="none"
-                    stroke="currentColor"
+                    stroke="#FFD37E"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -357,8 +362,8 @@ const Team = () => {
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
+                  fill="none"
+                    stroke="#FFD37E"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -372,7 +377,8 @@ const Team = () => {
                 </a>
 
                 <svg
-                  fill="#FFD37E"
+                fill="#FFD37E"
+                stroke="currentColor"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
                   width="50px"
