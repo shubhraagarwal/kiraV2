@@ -103,7 +103,7 @@ const Gallery = () => {
           <div className="genesis_header">
             <div>
               <h1>
-                KIRA GENESIS &nbsp; &nbsp; &nbsp; &nbsp; <span>// 10000</span>
+                KIRA GENESIS &nbsp; &nbsp; &nbsp; &nbsp; <span> / / 10000</span>
               </h1>
               <button className="randomBtn">
                 <img src={Random} alt="" />

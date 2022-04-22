@@ -784,7 +784,7 @@ footer {
 #cio {
   padding-left: 11rem;
 }
-.Cross {
+.Cross, .cross1 {
   background: white;
   height: fit-content;
   padding: 0.5rem 0.8rem;
@@ -938,6 +938,10 @@ footer {
   border-radius: 18px;
   border: 1px solid #cfcece;
 }
+.resp_p{
+  display: none;
+}
+
 @media (min-width: 2560px) and (min-height: 1600px) {
   .defeat_assent,
   .defeat_supernova,
@@ -966,11 +970,7 @@ footer {
     }
     .hamburger{
       display: initial;
-    
       margin-left: -7rem;
-
-
-      
     }
     .spark{
       display: none;
@@ -1048,8 +1048,6 @@ footer {
   }
   .aftHam{
     margin-left: 16rem !important;
-
-
   }
 
   .metamask{
@@ -1252,12 +1250,11 @@ footer {
   .DefeatWrap{
   overflow-x: hidden;
   }
-  body{
-  overflow-y: auto;
-  }
+
   .Assent, .superNova,.Tilt,.Impossible{
     overflow-x: hidden;
-    display: block;
+    /* display: block; */
+    flex-direction: column-reverse;
     padding-left: 2rem;
       padding-right: 0rem;
   }
@@ -1267,7 +1264,8 @@ footer {
   }
   #Model{
     position: relative;
-    top: -47rem;
+    top: 8rem;
+    /* top: -47rem; */
     /* left: -42rem; */
     left: -40rem;
   }
@@ -1275,29 +1273,15 @@ footer {
     padding-top: 0rem;
     text-align: center;
     font-size: 26px;
+    margin-top: -29rem;
   }
   .Cross{
-    /* position: relative;
-      top: -84rem; */
-      /* top: -91.5rem; */
-      /* left: 13rem; */
-      /* font-size: 13px; */
-      /* padding: 0.1rem 0.4rem; */
-  
-  
-      padding: 0.1rem 0.4rem;
-      position: absolute;
-      left: 19rem;
-      top: 15.5rem;
+    padding: 0.1rem 0.4rem;
+    position: absolute;
+    left: 19rem;
+    top: 16.5rem;
   }
   .cross1{
-    /* position: relative; */
-      /* top: -84rem; */
-      /* top: -91.5rem; */
-      /* left: 13rem; */
-      /* font-size: 13px; */
-      /* padding: 0.1rem 0.4rem; */
-  
       padding: 0.1rem 0.4rem;
       position: absolute;
       left: 19rem;
@@ -1305,7 +1289,14 @@ footer {
   }
   #ModelAlt{
       position: relative;
-      top: -52rem;
+      /* top: -52rem; */
+      top: 8rem;
       left: -64rem;
   }
+  .resp_p{
+    margin-left: 9rem !important;
+    margin-top: -4rem !important;
+    padding-top: 0rem !important;
+    display: block !important;
+    }
   }

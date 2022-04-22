@@ -1,9 +1,9 @@
-
 import { useHistory } from "react-router-dom";
 const SuperDetails = (props) => {
     const history = useHistory();
     return (
         <>
+        
         <div className="super_head">
         <h1>Defeat The Shogun</h1>
         </div>
@@ -11,6 +11,7 @@ const SuperDetails = (props) => {
         <div className={props.class}>
             <div className="supernova_content">
             <h1>{props.title}</h1>
+            <p className="resp_p">{props.head}</p>
             <p>{props.para}</p>
             </div>
             <model-viewer
@@ -24,9 +25,10 @@ const SuperDetails = (props) => {
           poster={props.loading}
           id={props.mod}
         ></model-viewer>
-          <span className="Cross" onClick={() => history.push("/defeat")}>X</span>
+          <span className={props.class1} onClick={() => history.push("/defeat")}>X</span>
     {/*<span><img src={Cross} alt=""  className="cross" onClick={() => history.push("/defeat")}/></span> */}
         </div>
+        
         </>
       );
 }

@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
-import PurposeBanner from "../assets/PurposeBanner.png";
-import KiraBanner from "../assets/KiraBanner.png";
+// import PurposeBanner from "../assets/PurposeBanner.png";
+// import KiraBanner from "../assets/KiraBanner.png";
 import Progess from "../assets/Progress.png";
 import RD from "../assets/R &D.png";
 import Running from "../assets/Running.png";

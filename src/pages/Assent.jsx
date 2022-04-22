@@ -24,6 +24,8 @@ const Assent = () => {
         title="ASSENT"
         mod="Model"
         img={AssentModel}
+        class1="Cross"
+        head="Assignment 1"
         para="Cultivate KIRA community. We are calling all defenders of the forgotten to embark in this battle with us. Thoroughout this journey we will form plans and partnerships, gather resources, create visions the masses can explore through art and visual expression and most importantly obtain our Freedom."
       />
     </>
