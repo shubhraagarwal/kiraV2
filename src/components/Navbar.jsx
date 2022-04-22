@@ -83,7 +83,7 @@ const[ham,setHam] =  useState(false)
           <img src={Hamburger} alt="" className="befHam"/>
           :
           <>
-          <img src={Hamburger} alt="" />
+          <img src={Hamburger} alt="" className="aftHam"/>
         <div className="res_routes">
         <div className="crossNav">
         

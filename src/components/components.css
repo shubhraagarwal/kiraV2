@@ -109,7 +109,7 @@ a {
   height: 0.8rem !important;
   margin-top: 1.5rem !important;
   margin-right: -5.5rem;
-  margin-left: 2rem;
+  margin-left: 6rem;
 }
 .hamburger{
   display: none;
@@ -951,299 +951,308 @@ footer {
 } 
 }
 
-@media(max-width:991px){
-  body{
+  @media(max-width:991px){
+    body{
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+    .Landing{
+      background: url('../assets/banner_Res.png');
+      background-size: 100vw 100vh;
+      height: 100vh;
+      width: 100vw;
+      background-repeat: no-repeat;
+      overflow: hidden;
+    }
+    .hamburger{
+      display: initial;
+      margin-left: -6rem;
+      
+    }
+    .spark{
+      display: none;
+    }
+    .nav_routes li{
+      display: none;
+    }
+    .nav_routes span{
+      display: none;
+    }
+    .SoonStake, .SoonMarket{
+      display: none;
+    }
+    .Navbar{
+      padding: 1rem 1rem;
+      padding-top: 1rem;
+    }
+    /* .nav_routes img{
+      display: none;
+    } */
+    #first_assent{
+  margin-top: 4rem;
+    }
+    .defeatCat{
+      width: 110%;
+    }
+    .logo img{
+      width: 5.5rem;
+      height: 2.5rem;
+    }
+    .MemberOne{
+      width: 18rem;
+  margin-bottom: 0rem;
+      margin-top: 1rem;
+    }
+    .TeamSetThree .MemberTwo {
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      width: 18rem;
+      height: 11.5rem;
+      margin-left: 0rem;
+  }
+  .socials img {
+    padding: 0.8rem 0.5rem;
+  }
+  #pr h2{
+    margin-left: 1.5rem;
+  }
+  #Socio_CIO {
+    margin-right: -2.3rem;
+  }
+  #Marvin .socials{
+    
+    margin-left: -0.1rem;
+  }
+  .socialsHandles {
+    margin-top: auto;
+    padding-left: 0rem;
+  }
+  #prcom{
+    padding: 1rem 0rem;
+  }
+  #pr{
+    padding-left: 0rem;
+  }
+  .TeamSetThree {
+    padding-left: 0rem;
+  }
+    .wallet img{
+      height: 2rem;
+      margin-left: 0rem;
+      margin-right: -0.6rem;
+  }
+  .aftHam{
+    margin-left: 16rem !important;
+
+
+  }
+
+  .metamask{
+      width: 18rem;
+      margin-top: 10rem;
+  }
+  .metamask p{
+    font-size: 14px;
+  }
+  .navBox{
+    box-shadow: none;
+  }
+  .Team{
+    display: block;
+    padding: 3rem 1rem;
     overflow-x: hidden;
-    overflow-y: auto;
   }
-  .Landing{
-    background: url('../assets/banner_Res.png');
-    background-size: 100vw 100vh;
-    height: 100vh;
-    width: 100vw;
-    background-repeat: no-repeat;
+  .socialsHandles h2{
+    margin-right: -2rem;
   }
-  .hamburger{
-    display: initial;
-    margin-left: -4.5rem;
+  .MemberTwo{
+    width: 292px;
+    margin-left: 0.3rem;
+  }
+  #Mary {
+    margin-top: 1rem;
+  }
+  .TeamSetTwo{
+    margin-left: 0rem;
+  }
+  #Marvin{
+    margin: 0rem;
+    margin-top: 1rem;
     
   }
-  .spark{
+  .team_pic img {
+    margin-left: 4rem;
+    width: 8.5rem;
+    height: 9rem;
+    margin-top: 3.5rem;
+  }
+  .CommingSoon{
+    overflow-x: hidden;
+  }
+  .res_routes{
+    color: white;
+      margin-left: -6rem;
+     
+      margin-bottom: -8rem !important;
+      position: relative;
+      left: 2rem;
+      top: 1rem;
+      background-color: #000000;
+  }
+  .res_routes p{
+    border-bottom: 2px solid #FFD37E;
+    text-align: initial;
+    padding: 0.5rem 1.6rem;
+    padding-right: 12rem;
+  }
+  #wall_res{
+    margin-left: -3rem;
+  }
+  .PrevRes{
+    display: initial;
+  }
+  .Preview{
     display: none;
   }
-  .nav_routes li{
-    display: none;
+  .CommingSoon img{
+    
+    height: 100%;
+    width: 100%;
   }
-  .nav_routes span{
-    display: none;
+  .navBox{
+    overflow: hidden;
   }
-  .SoonStake, .SoonMarket{
-    display: none;
-  }
-  .Navbar{
-    padding: 1rem 1rem;
-    padding-top: 1rem;
-  }
-  /* .nav_routes img{
-    display: none;
-  } */
-  #first_assent{
-margin-top: 4rem;
-  }
-  .defeatCat{
-    width: 110%;
-  }
-  .logo img{
-    width: 5.5rem;
-    height: 2.5rem;
-  }
-  .MemberOne{
-    width: 18rem;
-margin-bottom: 0rem;
-    margin-top: 1rem;
-  }
-  .TeamSetThree .MemberTwo {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    width: 18rem;
-    height: 11.5rem;
-    margin-left: 0rem;
-}
-.socials img {
-  padding: 0.8rem 0.5rem;
-}
-#pr h2{
-  margin-left: 1.5rem;
-}
-#Socio_CIO {
-  margin-right: -2.3rem;
-}
-#Marvin .socials{
-  
-  margin-left: -0.1rem;
-}
-.socialsHandles {
-  margin-top: auto;
-  padding-left: 0rem;
-}
-#prcom{
-  padding: 1rem 0rem;
-}
-#pr{
-  padding-left: 0rem;
-}
-.TeamSetThree {
-  padding-left: 0rem;
-}
-  .wallet img{
-    height: 2rem;
-    margin-left: 0rem;
-    margin-right: -0.6rem;
-}
-.metamask{
-    width: 18rem;
-    margin-top: 10rem;
-}
-.metamask p{
-  font-size: 14px;
-}
-.navBox{
-  box-shadow: none;
-}
-.Team{
-  display: block;
-  padding: 3rem 1rem;
-  overflow-x: hidden;
-}
-.socialsHandles h2{
-  margin-right: -2rem;
-}
-.MemberTwo{
-  width: 292px;
-  margin-left: 0.3rem;
-}
-#Mary {
-  margin-top: 1rem;
-}
-.TeamSetTwo{
-  margin-left: 0rem;
-}
-#Marvin{
-  margin: 0rem;
-  margin-top: 1rem;
-  
-}
-.team_pic img {
-  margin-left: 4rem;
-  width: 8.5rem;
-  height: 9rem;
-  margin-top: 3.5rem;
-}
-.CommingSoon{
-  overflow-x: hidden;
-}
-.res_routes{
-  color: white;
-    margin-left: -6rem;
-   
-    margin-bottom: -8rem !important;
-    position: relative;
-    left: 2rem;
-    top: 1rem;
-    background-color: #000000;
-}
-.res_routes p{
-  border-bottom: 2px solid #FFD37E;
-  text-align: initial;
-  padding: 0.5rem 1.6rem;
-  padding-right: 12rem;
-}
-#wall_res{
-  margin-left: -3rem;
-}
-.PrevRes{
-  display: initial;
-}
-.Preview{
-  display: none;
-}
-.CommingSoon img{
-  
-  height: 100%;
-  width: 100%;
-}
-.navBox{
-  overflow: hidden;
-}
-.befHam{
-  padding: 0rem 7rem;
-  padding-left: 7.8rem;
-}
-/*Integration*/
-/* DEFEAT */
-.defeat_header h1, .super_head h1 {
-  font-size: 24px;
-}   
-.defeat_header p{
-padding: 1rem 3rem;
-}
-.defeat_assent h1, .defeat_supernova h1, .defeat_tilt h1, .defeat_impossible h1 {
-  font-size: 24px;
-}
-.defeat_assent p, .defeat_supernova p, .defeat_tilt p, .defeat_impossible p {
-  font-size: 16px;
-}
-.chart{
-display: block;
-overflow-y: auto;
-}
-.chart p{
-padding: 1rem 1rem;
-/* text-align: center;
-margin-left: -3rem; */
-}
-.Chartblur{
-padding: 0 1.5rem;
-width: 17rem;
-}
-#aboveChart {
-padding: 0 1.5rem;
-width: 16rem;
-left: 0.5rem;
-top: -10rem;
-}
-.bars{
-padding: 0rem 1rem;
-position: relative;
-top: -22rem;
-}
-.Tokenomics_respon{
-position: relative;
-top: 19rem;
+  .befHam{
+    padding: 0rem 7rem;
+    padding-left: 7.8rem;
+    margin-left: 9rem !important;
 
-}
-.BarBlur{
-width: 18rem;
-}
-#aboveBar{
-width: 17rem;
-top: -9rem;
-}
-.pur_banner img{
-width: 22rem;
-margin-top: 2rem;
-margin-left: -2rem;
-
-}
-.pur_stats{
-  margin-bottom: 1rem;
-}
-.Banner_logo {
-padding-right: 3rem;
-}
-.pur_wrap {
-padding-right: 1rem;
-margin-top: 10rem;
-justify-content: center;
-}
-.DefeatWrap{
-overflow-x: hidden;
-}
-body{
-overflow-y: auto;
-}
-.Assent, .superNova,.Tilt,.Impossible{
-  overflow-x: hidden;
+  }
+  /*Integration*/
+  /* DEFEAT */
+  .defeat_header h1, .super_head h1 {
+    font-size: 24px;
+  }   
+  .defeat_header p{
+  padding: 1rem 3rem;
+  }
+  .defeat_assent h1, .defeat_supernova h1, .defeat_tilt h1, .defeat_impossible h1 {
+    font-size: 24px;
+  }
+  .defeat_assent p, .defeat_supernova p, .defeat_tilt p, .defeat_impossible p {
+    font-size: 16px;
+  }
+  .chart{
   display: block;
-  padding-left: 2rem;
-    padding-right: 0rem;
-}
-.supernova_content p{
-  padding-right: 0rem;
-  padding-top: 33rem;
-}
-#Model{
+  overflow-y: auto;
+  }
+  .chart p{
+  padding: 1rem 1rem;
+  /* text-align: center;
+  margin-left: -3rem; */
+  }
+  .Chartblur{
+  padding: 0 1.5rem;
+  width: 17rem;
+  }
+  #aboveChart {
+  padding: 0 1.5rem;
+  width: 16rem;
+  left: 0.5rem;
+  top: -10rem;
+  }
+  .bars{
+  padding: 0rem 1rem;
   position: relative;
-  top: -47rem;
-  /* left: -42rem; */
-  left: -40rem;
-}
-.supernova_content h1{
-  padding-top: 0rem;
-  text-align: center;
-  font-size: 26px;
-}
-.Cross{
-  /* position: relative;
-    top: -84rem; */
-    /* top: -91.5rem; */
-    /* left: 13rem; */
-    /* font-size: 13px; */
-    /* padding: 0.1rem 0.4rem; */
-
-
-    padding: 0.1rem 0.4rem;
-    position: absolute;
-    left: 19rem;
-    top: 15.5rem;
-}
-.cross1{
-  /* position: relative; */
-    /* top: -84rem; */
-    /* top: -91.5rem; */
-    /* left: 13rem; */
-    /* font-size: 13px; */
-    /* padding: 0.1rem 0.4rem; */
-
-    padding: 0.1rem 0.4rem;
-    position: absolute;
-    left: 19rem;
-    top: 15.5rem;
-}
-#ModelAlt{
+  top: -22rem;
+  }
+  .Tokenomics_respon{
+  position: relative;
+  top: 19rem;
+  
+  }
+  .BarBlur{
+  width: 18rem;
+  }
+  #aboveBar{
+  width: 17rem;
+  top: -9rem;
+  }
+  .pur_banner img{
+  width: 22rem;
+  margin-top: 2rem;
+  margin-left: -2rem;
+  
+  }
+  .pur_stats{
+    margin-bottom: 1rem;
+  }
+  .Banner_logo {
+  padding-right: 3rem;
+  }
+  .pur_wrap {
+  padding-right: 1rem;
+  margin-top: 10rem;
+  justify-content: center;
+  }
+  .DefeatWrap{
+  overflow-x: hidden;
+  }
+  body{
+  overflow-y: auto;
+  }
+  .Assent, .superNova,.Tilt,.Impossible{
+    overflow-x: hidden;
+    display: block;
+    padding-left: 2rem;
+      padding-right: 0rem;
+  }
+  .supernova_content p{
+    padding-right: 0rem;
+    padding-top: 33rem;
+  }
+  #Model{
     position: relative;
-    top: -52rem;
-    left: -64rem;
-}
-}
+    top: -47rem;
+    /* left: -42rem; */
+    left: -40rem;
+  }
+  .supernova_content h1{
+    padding-top: 0rem;
+    text-align: center;
+    font-size: 26px;
+  }
+  .Cross{
+    /* position: relative;
+      top: -84rem; */
+      /* top: -91.5rem; */
+      /* left: 13rem; */
+      /* font-size: 13px; */
+      /* padding: 0.1rem 0.4rem; */
+  
+  
+      padding: 0.1rem 0.4rem;
+      position: absolute;
+      left: 19rem;
+      top: 15.5rem;
+  }
+  .cross1{
+    /* position: relative; */
+      /* top: -84rem; */
+      /* top: -91.5rem; */
+      /* left: 13rem; */
+      /* font-size: 13px; */
+      /* padding: 0.1rem 0.4rem; */
+  
+      padding: 0.1rem 0.4rem;
+      position: absolute;
+      left: 19rem;
+      top: 15.5rem;
+  }
+  #ModelAlt{
+      position: relative;
+      top: -52rem;
+      left: -64rem;
+  }
+  }
