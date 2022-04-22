@@ -967,7 +967,8 @@ footer {
     .hamburger{
       display: initial;
     
-      margin-left: -4rem;
+      margin-left: -7rem;
+
 
       
     }
@@ -1100,6 +1101,8 @@ footer {
       position: relative;
       left: 2rem;
       top: 1rem;
+      /* width: 27rem;
+      margin-left: -7rem; */
       background-color: #000000;
   }
   .res_routes p{

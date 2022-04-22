@@ -78,7 +78,12 @@ const[ham,setHam] =  useState(false)
             <img src={props.land} alt="" className="spark"/>
             <span className="SoonLand">Soon</span>
           </div>
-          <div className="hamburger" onClick={() => setHam(!ham)}>
+          <div className="hamburger" onClick={() => {
+            setHam(!ham);
+            // if(ham === true){
+            // document.querySelector('.res_routes').style.transition = '0.5s'
+            // }
+          }}>
           {ham === false?
           <img src={Hamburger} alt="" className="befHam"/>
           :
