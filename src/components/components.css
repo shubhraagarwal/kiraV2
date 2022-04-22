@@ -996,6 +996,7 @@ footer {
     }
     .defeatCat{
       width: 110%;
+      margin-left: -1rem;
     }
     .logo img{
       width: 5.5rem;
