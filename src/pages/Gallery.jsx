@@ -18,6 +18,7 @@ import CharEleven from '../assets/CharEleven.png'
 // import MarketPlace from "../assets/Marketplace-coming soon.png";
 import Mint from '../assets/Mint Section.png'
 import Staking from "../assets/staking.png";
+import Filter from '../assets/filter.png'
 const Gallery = () => {
   return (
     <div className="gal_back">
@@ -128,7 +129,7 @@ const Gallery = () => {
      <span>Select</span>
      </div>
      </div>
-     <div className="charCont">
+     <div className="charCont" id="thirdCont">
      <img src={CharThree} alt="" />
      <p>Kira</p>
      <div className="selection">
@@ -163,7 +164,7 @@ const Gallery = () => {
      <span>Select</span>
      </div>
      </div>
-     <div className="charCont">
+     <div className="charCont" id="SixCont">
      <img src={CharSeven} alt="" />
      <p>Kira</p>
      <div className="selection">
@@ -198,7 +199,7 @@ const Gallery = () => {
      <span>Select</span>
      </div>
      </div>
-     <div className="charCont">
+     <div className="charCont" id="NineCont">
      <img src={CharEleven} alt="" />
      <p>Kira</p>
      <div className="selection">
@@ -223,6 +224,10 @@ const Gallery = () => {
                 <img src={YourWallet} alt="" />
                 Your Wallet
               </button>
+              <button className="filterBtn">
+              <img src={Filter} alt="" />
+              </button>
+
             </div>
           </div>
         </div>

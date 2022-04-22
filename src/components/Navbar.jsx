@@ -94,7 +94,7 @@ const[ham,setHam] =  useState(false)
         <div onClick={() => setHam(false)}>x</div>
         </div>
         <Link to='/'><p>Home</p></Link>
-        <Link to='/defeat'><p>Pupose</p></Link>
+        <Link to='/defeat'><p>Purpose</p></Link>
       <Link to='/development'><p>Development</p></Link>
        <Link to='/reserve'> <p>Reserve</p></Link>
         <Link to='/team'><p>Team</p></Link>
