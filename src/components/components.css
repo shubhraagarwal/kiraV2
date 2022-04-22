@@ -1002,7 +1002,7 @@ footer {
       height: 2.5rem;
     }
     .MemberOne{
-      width: 18rem;
+      width: 22rem;
   margin-bottom: 0rem;
       margin-top: 1rem;
     }
@@ -1010,7 +1010,7 @@ footer {
       margin-bottom: 1rem;
       margin-top: 1rem;
       margin-bottom: 1rem;
-      width: 18rem;
+      width: 22rem;
       height: 11.5rem;
       margin-left: 0rem;
   }
@@ -1029,13 +1029,13 @@ footer {
   }
   .socialsHandles {
     margin-top: auto;
-    padding-left: 0rem;
+    padding-left: 3rem;
   }
   #prcom{
     padding: 1rem 0rem;
   }
   #pr{
-    padding-left: 0rem;
+    padding-left: 3rem;
   }
   .TeamSetThree {
     padding-left: 0rem;
@@ -1085,7 +1085,9 @@ footer {
     
   }
   .team_pic img {
-    margin-left: 4rem;
+   
+    margin-left: 8rem;
+
     width: 8.5rem;
     height: 9rem;
     margin-top: 3.5rem;
