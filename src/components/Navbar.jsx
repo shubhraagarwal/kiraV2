@@ -98,10 +98,10 @@ const[ham,setHam] =  useState(false)
       <Link to='/development'><p>Development</p></Link>
        <Link to='/reserve'> <p>Reserve</p></Link>
         <Link to='/team'><p>Team</p></Link>
-       <Link to='/marketplace'> <p>Marketplace</p></Link>
-       <Link to='/staking'><p>Staking</p></Link>
-        <p>Weapon</p>
-        <p>Land</p>
+       <Link to='/marketplace'> <p className="res_soon">Marketplace <span>Soon</span></p></Link>
+       <Link to='/staking'><p className="res_soon">Staking <span>Soon</span></p></Link>
+        <p className="res_soon">Weapon <span>Soon</span></p>
+        <p className="res_soon">Land <span>Soon</span></p>
         </div>
           </>
           }

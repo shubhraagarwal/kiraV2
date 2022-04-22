@@ -1114,6 +1114,8 @@ footer {
     height: 100vh;
     margin-top: -1rem;
 
+    z-index: 1;
+
   }
   .res_routes p{
     border-bottom: 2px solid #FFD37E;
@@ -1121,12 +1123,37 @@ footer {
     padding: 1rem 1.6rem;
     padding-right: 12rem;
     margin-top: 2rem;
+    padding: 1rem 2rem;
+    margin: 2rem;
 
   }
   .crossNav{
     text-align: end;
     margin-right: 1rem;
   }
+  .crossNav div{
+    margin-top: 2rem;
+    margin-right: 2rem;
+    background: white;
+    color: black;
+    /* width: fit-content; */
+    margin-left: 20rem;
+    text-align: center;
+    border-radius: 12px;
+  }
+  .res_routes span{
+   
+    display: initial;
+    margin-left: 16rem;
+    position: relative;
+    top: -1rem;
+    color: #FFD37E;
+    font-family: CoolCond;
+
+  }
+  .res_soon{
+    margin-top: -1rem !important;
+  } 
   #wall_res{
     margin-left: -3rem;
   }
@@ -1187,11 +1214,16 @@ footer {
   padding: 0rem 1rem;
   position: relative;
   top: -22rem;
+  text-align: center;
   }
   .Tokenomics_respon{
   position: relative;
   top: 19rem;
+  text-align: center;
   
+  }
+  .wallet{
+    margin-right: 2rem;
   }
   .BarBlur{
   width: 18rem;
