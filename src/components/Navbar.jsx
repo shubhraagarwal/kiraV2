@@ -85,9 +85,9 @@ const[ham,setHam] =  useState(false)
           <>
           <img src={Hamburger} alt="" className="aftHam"/>
         <div className="res_routes">
-        <div className="crossNav">
-        
-        </div>
+        <section className="crossNav">
+        <p onClick={()=> setHam(false)}>x</p>
+        </section>
         <p>Home</p>
         <p>Pupose</p>
         <p>Development</p>

@@ -966,7 +966,7 @@ footer {
     }
     .hamburger{
       display: initial;
-      margin-left: -6rem;
+      /* margin-left: -6rem; */
       
     }
     .spark{
@@ -1103,8 +1103,14 @@ footer {
   .res_routes p{
     border-bottom: 2px solid #FFD37E;
     text-align: initial;
-    padding: 0.5rem 1.6rem;
+    padding: 1rem 1.6rem;
     padding-right: 12rem;
+    margin-top: 2rem;
+
+  }
+  .crossNav{
+    text-align: end;
+    margin-right: 1rem;
   }
   #wall_res{
     margin-left: -3rem;
