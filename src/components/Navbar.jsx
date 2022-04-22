@@ -93,13 +93,13 @@ const[ham,setHam] =  useState(false)
         <div className="crossNav">
         <div onClick={() => setHam(false)}>x</div>
         </div>
-        <p>Home</p>
-        <p>Pupose</p>
-        <p>Development</p>
-        <p>Reserve</p>
-        <p>Team</p>
-        <p>Marketplace</p>
-        <p>Staking</p>
+        <Link to='/'><p>Home</p></Link>
+        <Link to='/defeat'><p>Pupose</p></Link>
+      <Link to='/development'><p>Development</p></Link>
+       <Link to='/reserve'> <p>Reserve</p></Link>
+        <Link to='/team'><p>Team</p></Link>
+       <Link to='/marketplace'> <p>Marketplace</p></Link>
+       <Link to='/staking'><p>Staking</p></Link>
         <p>Weapon</p>
         <p>Land</p>
         </div>
