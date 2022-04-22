@@ -966,7 +966,9 @@ footer {
     }
     .hamburger{
       display: initial;
-      /* margin-left: -6rem; */
+    
+      margin-left: -4rem;
+
       
     }
     .spark{
