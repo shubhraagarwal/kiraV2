@@ -104,14 +104,14 @@ a {
 .nav_routes div {
   margin-bottom: 0;
 }
-.hamburger img{
+.hamburger img {
   width: 1rem !important;
   height: 0.8rem !important;
   margin-top: 1.5rem !important;
   margin-right: -5.5rem;
   margin-left: 6rem;
 }
-.hamburger{
+.hamburger {
   display: none;
 }
 /* .nav_routes span:nth-child(2) {
@@ -173,7 +173,7 @@ a {
 
   margin-top: -3rem;
 }
-.Char_Wrap{
+.Char_Wrap {
   display: flex;
   filter: blur(6px);
   padding: 1rem 0rem;
@@ -250,7 +250,7 @@ a {
 .genesis_header span {
   color: gray;
 }
-.Characters{
+.Characters {
   overflow-y: scroll;
   height: 100vh;
 }
@@ -264,7 +264,7 @@ a {
 .charCont {
   font-family: "IBM Plex Mono", monospace;
 }
-.charCont img{
+.charCont img {
   height: 180px;
   width: 180px;
 }
@@ -294,24 +294,23 @@ a {
   margin-top: 1rem;
   margin-bottom: 3rem;
   margin-left: 2rem;
-
 }
 .gallery_comming {
   padding: 1rem 1rem;
-  
+
   margin-left: 25rem;
 
-  background: url('../assets/ComeBack.png');
+  background: url("../assets/ComeBack.png");
   background-repeat: no-repeat;
   position: relative;
-    top: -48rem;
+  top: -48rem;
 }
 /* .gallery_comming img {
   height: 10rem;
   width: 60%;
   position: relative;
   top: -56rem; */
-  /* left: 12rem; */
+/* left: 12rem; */
 /* } */
 /* DEFEAT PAGE */
 .defeat_header {
@@ -569,7 +568,7 @@ a {
 .clan {
   width: 10rem;
 }
-.PrevRes{
+.PrevRes {
   display: none;
 }
 .InfoHead {
@@ -643,37 +642,37 @@ footer {
   display: flex;
   justify-content: center;
 }
-.Discord{
+.Discord {
   width: 2rem;
   padding: 0rem 0rem;
   margin-bottom: 0rem;
   padding-left: 1rem;
 }
-.CommLink{
+.CommLink {
   margin-bottom: 0.8rem;
   margin-left: 0.6rem;
 }
-.CommMail{
+.CommMail {
   margin-bottom: 0.8rem;
 }
-.PrSocials{
+.PrSocials {
   margin-left: 5rem;
 }
-.PMSocials{
+.PMSocials {
   margin-left: 4rem;
 }
-.Discord_CIO{
+.Discord_CIO {
   margin-bottom: -0.35rem;
   padding-left: 1rem;
   width: 1.8rem;
 }
-#Socio_CIO{
+#Socio_CIO {
   margin-right: -2rem;
 }
-.CIOMail{
+.CIOMail {
   margin-bottom: 0.5rem;
 }
-.Marvin_mail{
+.Marvin_mail {
   padding-bottom: 0.8rem;
 }
 
@@ -784,7 +783,8 @@ footer {
 #cio {
   padding-left: 11rem;
 }
-.Cross, .cross1 {
+.Cross,
+.cross1 {
   background: white;
   height: fit-content;
   padding: 0.5rem 0.8rem;
@@ -801,9 +801,9 @@ footer {
 .DefeatWrap {
   height: 100vh;
 }
-.popup-content{
-  background: #0D0D11 !important;
-  border: 1px solid #FFD37E !important;
+.popup-content {
+  background: #0d0d11 !important;
+  border: 1px solid #ffd37e !important;
   border-radius: 8px;
 }
 
@@ -862,12 +862,14 @@ footer {
 .modal {
   font-size: 12px;
 }
-.content input, .content textarea{
-  background: #0D0D11 ;
-  border: 1px solid #FFD37E !important;
+
+.content input,
+.content textarea {
+  background: #0d0d11;
+  border: 1px solid #ffd37e !important;
   outline: none;
 }
-.content textarea{
+.content textarea {
   width: 100%;
   height: 192px;
   border-radius: 8px;
@@ -880,12 +882,26 @@ footer {
   font-size: 50px;
   text-align: center;
   padding: 5px;
-  color: #FFD66C;
+  color: #ffd66c;
   font-family: Cool;
 }
-.PopBtn{
+@media screen and (max-width: 480px) {
+  .modal > .header {
+    font-size: 30px;
+  }
+  .content {
+    width: 10% !important;
+  }
+  .content > input {
+    width: 800% !important;
+  }
+  .content > textarea {
+    width: 800% !important;
+  }
+}
+.PopBtn {
   font-size: 13px;
-  background: #FFD37E;
+  background: #ffd37e;
   border: none;
   outline: none;
   color: #000000;
@@ -938,10 +954,10 @@ footer {
   border-radius: 18px;
   border: 1px solid #cfcece;
 }
-.resp_p{
+.resp_p {
   display: none;
 }
-.filterBtn{
+.filterBtn {
   display: none;
 }
 
@@ -955,160 +971,158 @@ footer {
   .gallery_comming img {
     height: 50rem;
     width: 120rem;
-} 
+  }
 }
 
-  @media(max-width:991px){
-    body{
-      overflow-x: hidden;
-      overflow-y: auto;
-    }
-    .Landing{
-      background: url('../assets/banner_Res.png');
-      background-size: 100vw 100vh;
-      height: 100vh;
-      width: 100vw;
-      background-repeat: no-repeat;
-      overflow: hidden;
-    }
-    .hamburger{
-      display: initial;
-      margin-left: -7rem;
-    }
-    .spark{
-      display: none;
-    }
-    .nav_routes li{
-      display: none;
-    }
-    .nav_routes span{
-      display: none;
-    }
-    .SoonStake, .SoonMarket{
-      display: none;
-    }
-    .Navbar{
-      padding: 1rem 1rem;
-      padding-top: 1rem;
-    }
-    /* .nav_routes img{
+@media (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .Landing {
+    background: url("../assets/banner_Res.png");
+    background-size: 100vw 100vh;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  .hamburger {
+    display: initial;
+    margin-left: -7rem;
+  }
+  .spark {
+    display: none;
+  }
+  .nav_routes li {
+    display: none;
+  }
+  .nav_routes span {
+    display: none;
+  }
+  .SoonStake,
+  .SoonMarket {
+    display: none;
+  }
+  .Navbar {
+    padding: 1rem 1rem;
+    padding-top: 1rem;
+  }
+  /* .nav_routes img{
       display: none;
     } */
-    #first_assent{
-  margin-top: 4rem;
-    }
-    .defeatCat{
-      width: 110%;
-      margin-left: -1rem;
-    }
-    .logo img{
-      width: 5.5rem;
-      height: 2.5rem;
-    }
-    .MemberOne{
-      width: 22rem;
-  margin-bottom: 0rem;
-      margin-top: 1rem;
-    }
-    .TeamSetThree .MemberTwo {
-      margin-bottom: 1rem;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-      width: 22rem;
-      height: 11.5rem;
-      margin-left: 0rem;
+  #first_assent {
+    margin-top: 4rem;
+  }
+  .defeatCat {
+    width: 110%;
+    margin-left: -1rem;
+  }
+  .logo img {
+    width: 5.5rem;
+    height: 2.5rem;
+  }
+  .MemberOne {
+    width: 22rem;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+  }
+  .TeamSetThree .MemberTwo {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 22rem;
+    height: 11.5rem;
+    margin-left: 0rem;
   }
   .socials img {
     padding: 0.8rem 0.5rem;
   }
-  #pr h2{
+  #pr h2 {
     margin-left: 1.5rem;
   }
   #Socio_CIO {
     margin-right: -2.3rem;
   }
-  #Marvin .socials{
-    
+  #Marvin .socials {
     margin-left: -0.1rem;
   }
   .socialsHandles {
     margin-top: auto;
     padding-left: 3rem;
   }
-  #prcom{
+  #prcom {
     padding: 1rem 0rem;
   }
-  #pr{
+  #pr {
     padding-left: 3rem;
   }
   .TeamSetThree {
     padding-left: 0rem;
   }
-    .wallet img{
-      height: 2rem;
-      margin-left: 0rem;
-      margin-right: -0.6rem;
+  .wallet img {
+    height: 2rem;
+    margin-left: 0rem;
+    margin-right: -0.6rem;
   }
-  .aftHam{
+  .aftHam {
     margin-left: 16rem !important;
   }
 
-  .metamask{
-      width: 18rem;
-      margin-top: 10rem;
+  .metamask {
+    width: 18rem;
+    margin-top: 10rem;
   }
-  .metamask p{
+  .metamask p {
     font-size: 14px;
   }
-  .navBox{
+  .navBox {
     box-shadow: none;
   }
-  .Team{
+  .Team {
     display: block;
     padding: 3rem 1rem;
     overflow-x: hidden;
   }
-  .socialsHandles h2{
+  .socialsHandles h2 {
     margin-right: -2rem;
   }
-  .MemberTwo{
+  .MemberTwo {
     width: 292px;
     margin-left: 0.3rem;
   }
   #Mary {
     margin-top: 1rem;
   }
-  .TeamSetTwo{
+  .TeamSetTwo {
     margin-left: 0rem;
   }
-  #Marvin{
+  #Marvin {
     margin: 0rem;
     margin-top: 1rem;
-    
   }
   .team_pic img {
-   
     margin-left: 8rem;
 
     width: 8.5rem;
     height: 9rem;
     margin-top: 3.5rem;
   }
-  .CommingSoon{
+  .CommingSoon {
     overflow-x: hidden;
   }
-  .res_routes{
+  .res_routes {
     color: white;
-      margin-left: -6rem;
-     
-      margin-bottom: -8rem !important;
-      position: relative;
-      left: 2rem;
-      top: 1rem;
-      /* width: 27rem;
+    margin-left: -6rem;
+
+    margin-bottom: -8rem !important;
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+    /* width: 27rem;
       margin-left: -7rem; */
-      background-color: #000000;
-      
+    background-color: #000000;
+
     position: absolute;
     left: 6rem;
     width: 100%;
@@ -1116,23 +1130,21 @@ footer {
     margin-top: -1rem;
 
     z-index: 1;
-
   }
-  .res_routes p{
-    border-bottom: 2px solid #FFD37E;
+  .res_routes p {
+    border-bottom: 2px solid #ffd37e;
     text-align: initial;
     padding: 1rem 1.6rem;
     padding-right: 12rem;
     margin-top: 2rem;
     padding: 1rem 2rem;
     margin: 2rem;
-
   }
-  .crossNav{
+  .crossNav {
     text-align: end;
     margin-right: 1rem;
   }
-  .crossNav div{
+  .crossNav div {
     margin-top: 2rem;
     margin-right: 2rem;
     background: white;
@@ -1140,246 +1152,250 @@ footer {
     /* width: fit-content; */
     margin-left: 20rem;
     text-align: center;
-    border-radius: 50%
+    border-radius: 50%;
   }
-  .res_routes span{
-   
+  .res_routes span {
     display: initial;
     margin-left: 16rem;
     position: relative;
     top: -1rem;
-    color: #FFD37E;
+    color: #ffd37e;
     font-family: CoolCond;
-
   }
-  .res_soon{
+  .res_soon {
     margin-top: -1rem !important;
-  } 
-  #wall_res{
+  }
+  #wall_res {
     margin-left: -3rem;
   }
-  .PrevRes{
+  .PrevRes {
     display: initial;
   }
-  .Preview{
+  .Preview {
     display: none;
   }
-  .CommingSoon img{
-    
+  .CommingSoon img {
     height: 100%;
     width: 100%;
   }
-  .navBox{
+  .navBox {
     overflow: hidden;
   }
-  .befHam{
+  .befHam {
     padding: 0rem 7rem;
     padding-left: 7.8rem;
     margin-left: 9rem !important;
-
   }
   /*Integration*/
   /* DEFEAT */
-  .defeat_header h1, .super_head h1 {
-    font-size: 24px;
-  }   
-  .defeat_header p{
-  padding: 1rem 3rem;
-  }
-  .defeat_assent h1, .defeat_supernova h1, .defeat_tilt h1, .defeat_impossible h1 {
+  .defeat_header h1,
+  .super_head h1 {
     font-size: 24px;
   }
-  .defeat_assent p, .defeat_supernova p, .defeat_tilt p, .defeat_impossible p {
+  .defeat_header p {
+    padding: 1rem 3rem;
+  }
+  .defeat_assent h1,
+  .defeat_supernova h1,
+  .defeat_tilt h1,
+  .defeat_impossible h1 {
+    font-size: 24px;
+  }
+  .defeat_assent p,
+  .defeat_supernova p,
+  .defeat_tilt p,
+  .defeat_impossible p {
     font-size: 16px;
   }
-  .chart{
-  display: block;
-  overflow-y: auto;
+  .chart {
+    display: block;
+    overflow-y: auto;
   }
-  .chart p{
-  padding: 1rem 1rem;
-  /* text-align: center;
+  .chart p {
+    padding: 1rem 1rem;
+    /* text-align: center;
   margin-left: -3rem; */
   }
-  .Chartblur{
-  padding: 0 1.5rem;
-  width: 17rem;
+  .Chartblur {
+    padding: 0 1.5rem;
+    width: 17rem;
   }
   #aboveChart {
-  padding: 0 1.5rem;
-  width: 16rem;
-  left: 0.5rem;
-  top: -10rem;
+    padding: 0 1.5rem;
+    width: 16rem;
+    left: 0.5rem;
+    top: -10rem;
   }
-  .bars{
-  padding: 0rem 1rem;
-  position: relative;
-  top: -22rem;
-  text-align: center;
+  .bars {
+    padding: 0rem 1rem;
+    position: relative;
+    top: -22rem;
+    text-align: center;
   }
-  .Tokenomics_respon{
-  position: relative;
-  top: 19rem;
-  text-align: center;
-  
+  .Tokenomics_respon {
+    position: relative;
+    top: 19rem;
+    text-align: center;
   }
-  .wallet{
+  .wallet {
     margin-right: 2rem;
   }
-  .BarBlur{
-  width: 18rem;
+  .BarBlur {
+    width: 18rem;
   }
-  #aboveBar{
-  width: 17rem;
-  top: -9rem;
+  #aboveBar {
+    width: 17rem;
+    top: -9rem;
   }
-  .pur_banner img{
-  width: 22rem;
-  margin-top: 2rem;
-  margin-left: -2rem;
-  
+  .pur_banner img {
+    width: 22rem;
+    margin-top: 2rem;
+    margin-left: -2rem;
   }
-  .pur_stats{
+  .pur_stats {
     margin-bottom: 1rem;
   }
   .Banner_logo {
-  padding-right: 3rem;
+    padding-right: 3rem;
   }
   .pur_wrap {
-  padding-right: 1rem;
-  margin-top: 10rem;
-  justify-content: center;
+    padding-right: 1rem;
+    margin-top: 10rem;
+    justify-content: center;
   }
-  .DefeatWrap{
-  overflow-x: hidden;
+  .DefeatWrap {
+    overflow-x: hidden;
   }
 
-  .Assent, .superNova,.Tilt,.Impossible{
+  .Assent,
+  .superNova,
+  .Tilt,
+  .Impossible {
     overflow-x: hidden;
     /* display: block; */
     flex-direction: column-reverse;
     padding-left: 2rem;
-      padding-right: 0rem;
+    padding-right: 0rem;
   }
-  .supernova_content p{
+  .supernova_content p {
     padding-right: 0rem;
     padding-top: 33rem;
   }
-  #Model{
+  #Model {
     position: relative;
     top: 8rem;
     /* top: -47rem; */
     /* left: -42rem; */
     left: -40rem;
   }
-  .supernova_content h1{
+  .supernova_content h1 {
     padding-top: 0rem;
     text-align: center;
     font-size: 26px;
     margin-top: -29rem;
   }
-  .Cross{
+  .Cross {
     padding: 0.1rem 0.4rem;
     position: absolute;
     left: 19rem;
     top: 16.5rem;
   }
-  .cross1{
-      padding: 0.1rem 0.4rem;
-      position: absolute;
-      left: 19rem;
-      top: 15.5rem;
+  .cross1 {
+    padding: 0.1rem 0.4rem;
+    position: absolute;
+    left: 19rem;
+    top: 15.5rem;
   }
-  #ModelAlt{
-      position: relative;
-      /* top: -52rem; */
-      top: 8rem;
-      left: -64rem;
+  #ModelAlt {
+    position: relative;
+    /* top: -52rem; */
+    top: 8rem;
+    left: -64rem;
   }
-  .resp_p{
+  .resp_p {
     margin-left: 9rem !important;
     margin-top: -4rem !important;
     padding-top: 0rem !important;
     display: block !important;
-    }
-    .filter{
-      display: none;
-    }
-    .Mint{
-      display: none;
-    }
-    #thirdCont{
-      display: none;
-    }
-    .genesis_header span {
-      margin-left: -3rem;
   }
-.genesis_header h1{
-  font-size: 20px;
-  margin-left: 1rem;
-}  
-#SixCont{
-  display: none;
-}
-#NineCont{
-  display: none;
-}
-.walletBtn{
-  margin-left: -6rem;
-  font-size: 0;
-  padding: 0.6rem 0.5rem;
-  margin-top: 4.5rem;
-}
-.walletBtn img, .randomBtn img, .filterBtn img{
-  position: relative;
-  bottom: -0.2rem;
-  left: -0.5rem;
-}
-.filterBtn img{
-  left: 0.05rem;
-}
-.walletBtn img{
-  left: -0.05rem;
-
-}
-.randomBtn{
-  margin-left: 1rem;
-}
-.filterBtn{
-  display: initial;
-  background: rgba(61, 65, 97, 0.6);
-  border: none;
-  border-radius: 8px;
-  color: #ffffff;
-  padding: 0.6rem 0.5rem;
-  font-family: Cool;
-  cursor: pointer;
-  /* padding-bottom: 1.2rem; */
-  padding-right: 0.5rem;
-  margin-top: 2rem;
-  margin-left: 1rem;
-
-}
-.charCont img {
-  height: 140px;
-  width: 130px;
-}
-.gallery_comming {
-  margin-left: 2rem;
-  position: relative;
-  top: -40rem;
-  background-size: 80vw 12vh;
-  text-align: center;
-}
-.gallery_comming h1{
-  font-size: 2.5rem;
-  margin-left: -2rem;
-}
-.selection{
-  width: 3rem;
-}
-.gal_back{
-  height: 100vh;
+  .filter {
+    display: none;
+  }
+  .Mint {
+    display: none;
+  }
+  #thirdCont {
+    display: none;
+  }
+  .genesis_header span {
+    margin-left: -3rem;
+  }
+  .genesis_header h1 {
+    font-size: 20px;
+    margin-left: 1rem;
+  }
+  #SixCont {
+    display: none;
+  }
+  #NineCont {
+    display: none;
+  }
+  .walletBtn {
+    margin-left: -6rem;
+    font-size: 0;
+    padding: 0.6rem 0.5rem;
+    margin-top: 4.5rem;
+  }
+  .walletBtn img,
+  .randomBtn img,
+  .filterBtn img {
+    position: relative;
+    bottom: -0.2rem;
+    left: -0.5rem;
+  }
+  .filterBtn img {
+    left: 0.05rem;
+  }
+  .walletBtn img {
+    left: -0.05rem;
+  }
+  .randomBtn {
+    margin-left: 1rem;
+  }
+  .filterBtn {
+    display: initial;
+    background: rgba(61, 65, 97, 0.6);
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 0.6rem 0.5rem;
+    font-family: Cool;
+    cursor: pointer;
+    /* padding-bottom: 1.2rem; */
+    padding-right: 0.5rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  .charCont img {
+    height: 140px;
+    width: 130px;
+  }
+  .gallery_comming {
+    margin-left: 2rem;
+    position: relative;
+    top: -40rem;
+    background-size: 80vw 12vh;
+    text-align: center;
+  }
+  .gallery_comming h1 {
+    font-size: 2.5rem;
+    margin-left: -2rem;
+  }
+  .selection {
+    width: 3rem;
+  }
+  .gal_back {
+    height: 100vh;
     overflow-y: hidden;
-}
   }
+}
