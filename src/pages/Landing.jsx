@@ -4,9 +4,8 @@ import Staking from "../assets/staking.png";
 const Landing = () => {
   return (
     <>
-    <div className="Landing">
-      <Navbar home= {Staking} market = '' />
-  
+      <div className="Landing">
+        <Navbar home={Staking} market="" />
       </div>
     </>
   );
