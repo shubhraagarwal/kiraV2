@@ -15,6 +15,9 @@ export const Staking = () => {
         </div>
       </div>
       <StakeFoot />
+      <div className='res'>
+      <h1>Please open the site in a Desktop</h1>
+      </div>
     </>
   );
 };

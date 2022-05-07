@@ -28,6 +28,9 @@ const Tilt = () => {
         head="Assignment 3"
         para="As our forces get stronger, KIRA will be known and relevant as well as appear strong and becoming. This will make the Shogun uneasy. Leave the Shogun on edge. And this is no time to get complacent. At this time we attack more aggressively through virtual experiences, metaverse and augmented reality, major  partnerships in the gaming industry, animation studios and more. We keep the Shogun guessing and restless, while leaving the space waiting for our next move, on Tilt. "
       />
+      <div className='res'>
+      <h1>Please open the site in a Desktop</h1>
+      </div>
     </>
   );
 };

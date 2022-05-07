@@ -6,7 +6,7 @@ import Gallery from "./pages/Gallery";
 import Metamask from "./pages/Metamask";
 import Chart from "./pages/Chart";
 import Development from "./pages/Development";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import Supernova from "./pages/Supernova";
 import Assent from "./pages/Assent";
 import Tilt from "./pages/Tilt";
@@ -15,6 +15,7 @@ import StakingSoon from "./pages/StakingSoon";
 import Team from "./pages/Team";
 function App() {
   return (
+    <>
     <Router>
       <Route exact path="/" component={Landing} />
       <Route exact path="/defeat" component={DefeatCat} />
@@ -29,6 +30,8 @@ function App() {
       <Route exact path="/defeat/impossible" component={Impossible} />
       <Route exact path="/team" component={Team} />
     </Router>
+    </>
+   
   );
 }
 

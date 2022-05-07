@@ -5,6 +5,7 @@ import meta from "../assets/metamask.png"
 const Metamask = () => {
     return (
         // <>
+        <>
          <div className="META">  
          <div className="navBox">
          <Navbar/>
@@ -17,6 +18,10 @@ const Metamask = () => {
        
         {/* </> */}
          </div>
+         <div className='res'>
+         <h1>Please open the site in a Desktop</h1>
+         </div>
+         </>
    );
 
 }

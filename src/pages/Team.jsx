@@ -7,8 +7,9 @@ import Mary from "../assets/Mary.png";
 import Marvin from "../assets/Marvin.png";
 import Marc from "../assets/Marc.png";
 import Nicky from "../assets/Nicky.png";
-import Kate from "../assets/Kate.png";
-import Jack from "../assets/Jack.png";
+import ParamLabs from '../assets/Paramlabs logo.svg';
+// import Kate from "../assets/Kate.png";
+// import Jack from "../assets/Jack.png";
 const Team = () => {
   return (
     <>
@@ -57,8 +58,8 @@ const Team = () => {
           </div>
           <div className="MemberOne" id="Mary">
             <div className="team_head">
-              <h1>Mary</h1>
-              <h2>CIO</h2>
+              <h1>VIN</h1>
+              <h2>Lead Dev</h2>
             </div>
             <div className="team_cont">
               <div className="socials" id="Socio_CIO">
@@ -151,7 +152,7 @@ const Team = () => {
 </div>*/}
           <div className="MemberOne" id="Marvin">
             <div className="team_head">
-              <h1>Marvin</h1>
+              <h1>Morris</h1>
               <h2>PROJECT MANAGER</h2>
             </div>
             <div className="team_cont">
@@ -230,9 +231,48 @@ const Team = () => {
         </div>
 
         <div className="TeamSetThree">
-          <div className="MemberTwo">
+        <div className="MemberOne" id="Nick">
+        <div className="team_head">
+          <h1>Sir Nick</h1>
+          <h2>STRATEGIC ADVISOR</h2>
+        </div>
+        <div className="team_cont">
+          <div className="socials" style={{visibility:'hidden'}}>
+            <a
+              href=" https://twitter.com/marc_tudisco"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Twitter} alt="Twitter" />
+            </a>
+            <a
+              href=" http://instagram.com/marctudisco"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Instagram} alt="Twitter" />
+            </a>
+          </div>
+          <div className="team_pic">
+            <img src={Nicky} alt="" />
+          </div>
+        </div>
+      </div>
+      <div className="MemberOne">
+      <div className="team_head">
+       <a href="https://paramlabs.io/" target='_blank' rel="noreferrer"><h1>Paramlabs</h1></a>
+        <h2 style={{visibility:'hidden'}}>ARTIST</h2>
+      </div>
+      <div className="team_cont">
+       
+        <div className="team_pic">
+         <a href="https://paramlabs.io/" target='_blank' rel="noreferrer"><img src={ParamLabs} alt="" /></a>
+        </div>
+      </div>
+    </div>
+          {/*<div className="MemberTwo">
             <div className="team_head">
-              <h1>Nicky Nick</h1>
+              <h1>Sir Nick</h1>
             </div>
             <div className="team_container">
               <div className="team_picture">
@@ -242,8 +282,8 @@ const Team = () => {
                 <h2>STRATEGIC ADVISOR</h2>
               </div>
             </div>
-          </div>
-          <div className="MemberTwo">
+                </div> */}
+        {/*  <div className="MemberTwo">
             <div className="team_head">
               <h1>Kate</h1>
             </div>
@@ -318,8 +358,8 @@ const Team = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="MemberTwo" id="Kate">
+                </div> */}
+       {/*   <div className="MemberTwo" id="Kate">
             <div className="team_head">
               <h1>Jack (aka Monique)</h1>
             </div>
@@ -394,8 +434,11 @@ const Team = () => {
                 </div>
               </div>
             </div>
-          </div>
+                </div> */}
         </div>
+      </div>
+      <div className='res'>
+      <h1>Please open the site in a Desktop</h1>
       </div>
     </>
   );

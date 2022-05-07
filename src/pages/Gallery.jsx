@@ -21,6 +21,7 @@ import Staking from "../assets/staking.png";
 import Filter from '../assets/filter.png'
 const Gallery = () => {
   return (
+    <>
     <div className="gal_back">
       <div className="navBox">
         <Navbar
@@ -233,6 +234,11 @@ const Gallery = () => {
         </div>
       </div>
     </div>
+    <div className='res'>
+    <h1>Please open the site in a Desktop</h1>
+    </div>
+    </>
+
   );
 };
 

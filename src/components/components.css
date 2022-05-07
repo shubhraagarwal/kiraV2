@@ -898,6 +898,9 @@ footer {
   color: #ffd66c;
   font-family: Cool;
 }
+#Nick{
+  margin-bottom: 3.4rem;
+}
 @media screen and (max-width: 480px) {
   .modal > .header {
     font-size: 30px;
@@ -984,7 +987,9 @@ footer {
 .filterBtn {
   display: none;
 }
-
+.res{
+  display: none;
+}
 @media (min-width: 2560px) and (min-height: 1600px) {
   .defeat_assent,
   .defeat_supernova,
@@ -997,6 +1002,7 @@ footer {
     width: 120rem;
   }
 }
+
 @media screen and (min-width: 481px) and (max-width: 991px) {
   .Landing {
     background: url("../assets/banner_Res.png");
@@ -1073,6 +1079,7 @@ footer {
   #Marvin .socials {
     margin-left: -0.1rem;
   }
+ 
   .socialsHandles {
     margin-top: auto;
     padding-left: 3rem;
@@ -1425,4 +1432,26 @@ footer {
     height: 100vh;
     overflow-y: hidden;
   }
+  .res{
+    display: initial;
+    color: wheat;
+   
+    font-family: Chinese dragon;
+   color: #FFD37E;
+ 
+   text-align: center;
+  }
+  .res h1{
+    background: url("../assets//Black\ bg.png");  
+    padding: 2rem;
+    border: 1px solid #ffd37e;
+    margin: 20rem 0.5rem;
+    border-radius: 8px;
+    letter-spacing: 0.1rem;
+  }
+ .Landing, .navBox, .chart, .DevWrap, .Team, .META, .CommingSoon, .DefeatWrap, .super_head, .Assent, .superNova, .Tilt, .Impossible, .gal_back {
+   display: none;
+ }
+ 
 }
+

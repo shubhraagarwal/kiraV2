@@ -6,6 +6,10 @@ const Landing = () => {
     <>
       <div className="Landing">
         <Navbar home={Staking} market="" />
+       
+      </div>
+      <div className='res'>
+      <h1>Please open the site in a Desktop</h1>
       </div>
     </>
   );

@@ -45,6 +45,9 @@ const Chart = () => {
           <img src={TBA} alt="" id="aboveBar" />
         </div>
       </div>
+      <div className='res'>
+      <h1>Please open the site in a Desktop</h1>
+      </div>
     </>
   );
 };

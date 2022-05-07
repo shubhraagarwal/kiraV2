@@ -15,6 +15,9 @@ const StakingSoon = () => {
 <img src={Preview} alt="" className="Preview"/>
 <img src={ResStake} alt="" className="PrevRes"/>
 </div>
+<div className='res'>
+<h1>Please open the site in a Desktop</h1>
+</div>
         </>
      );
 }
